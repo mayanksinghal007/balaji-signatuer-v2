@@ -1,90 +1,164 @@
 'use client';
 
-import React from 'react';
-import Link from 'next/link';
+import React, { useRef } from 'react';
 import Image from 'next/image';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
+import { Sparkles, ShieldCheck, Truck, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/Button';
 
 export const HeroSection: React.FC = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const shouldReduceMotion = useReducedMotion();
+
+  // Subtle parallax drift on scroll
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ['start start', 'end start'],
+  });
+
+  const imageY = useTransform(scrollYProgress, [0, 1], ['0%', '16%']);
+  const contentY = useTransform(scrollYProgress, [0, 1], ['0%', '10%']);
+  const contentOpacity = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
+
+  const trustItems = [
+    {
+      icon: <Sparkles className="w-4 h-4 text-gold-antique" />,
+      title: 'Artisan Curation',
+      desc: 'Generational Weavers',
+    },
+    {
+      icon: <ShieldCheck className="w-4 h-4 text-gold-antique" />,
+      title: 'Fabric Purity',
+      desc: 'Hand-Inspected Silk & Zari',
+    },
+    {
+      icon: <Truck className="w-4 h-4 text-gold-antique" />,
+      title: 'Studio Delivery',
+      desc: 'Complimentary Pan-India',
+    },
+  ];
+
   return (
-    <section className="relative w-full min-h-[85vh] lg:min-h-[92vh] flex items-center bg-heritage-deep overflow-hidden">
-      {/* Background Cinematic Image with Editorial Gradient Mask */}
-      <div className="absolute inset-0 z-0">
+    <div
+      ref={containerRef}
+      className="relative min-h-[92vh] sm:min-h-screen w-full flex items-center justify-center overflow-hidden bg-heritage-deep"
+    >
+      {/* Background Hero Image with subtle parallax */}
+      <motion.div
+        style={shouldReduceMotion ? {} : { y: imageY }}
+        className="absolute inset-0 w-full h-[115%] -top-[7%]"
+      >
         <Image
           src="/images/hero/hero-editorial-model.jpg"
-          alt="Balaji Signatures Luxury Indian Women's Ethnic Wear"
+          alt="Balaji Signatures Luxury Editorial Heritage Model"
           fill
           priority
-          className="object-cover object-top opacity-55 scale-100 transition-transform duration-1000 ease-out"
+          className="object-cover object-top filter brightness-[0.92] contrast-[1.05]"
           sizes="100vw"
         />
-        {/* Layered Gradient Lighting */}
-        <div className="absolute inset-0 bg-gradient-to-r from-heritage-deep via-heritage-deep/75 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-heritage-deep via-transparent to-heritage-deep/30" />
-      </div>
 
-      {/* Decorative Fine Gold Border Outline */}
-      <div className="absolute inset-4 sm:inset-8 border border-gold-antique/20 pointer-events-none z-10" />
+        {/* Directional Luxury Scrim: Dark gradient on edges and bottom for contrast, center remains rich & vibrant */}
+        <div className="absolute inset-0 bg-gradient-to-t from-heritage-deep via-heritage-deep/40 to-heritage-deep/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-heritage-deep/80 via-heritage-deep/20 to-heritage-deep/60" />
+      </motion.div>
 
-      {/* Content Container */}
-      <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-20 lg:py-28 flex flex-col justify-center">
-        <div className="max-w-2xl space-y-6">
-          {/* Eyebrow Pill */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 border border-gold-antique/40 bg-heritage-deep/60 backdrop-blur-md">
-            <Sparkles className="w-3.5 h-3.5 text-gold-muted" />
-            <span className="text-[11px] uppercase tracking-regal text-gold-muted font-sans font-medium">
-              Flagship Studio Collection · 2026
-            </span>
-          </div>
+      {/* Main Content Overlay */}
+      <motion.div
+        style={shouldReduceMotion ? {} : { y: contentY, opacity: contentOpacity }}
+        className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 pb-20 sm:py-32 flex flex-col items-center"
+      >
+        {/* Eyebrow Label */}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+          className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-gold-antique/30 mb-6"
+        >
+          <span className="w-1.5 h-1.5 rounded-full bg-gold-antique animate-pulse" />
+          <span className="text-[11px] sm:text-xs uppercase tracking-eyebrow text-gold-light font-medium">
+            Flagship Studio Collection · 2026
+          </span>
+        </motion.div>
 
-          {/* Monumental Editorial Typography */}
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif text-canvas leading-[1.08] tracking-tight font-normal">
-            Elegance <br />
-            <span className="italic font-light text-gold-light">That Defines</span> You
+        {/* Headline with Staggered Entrance */}
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.85, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          className="space-y-2 mb-6"
+        >
+          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif text-white font-normal tracking-tight leading-[1.08]">
+            Elegance That <br />
+            <span className="font-serif italic font-light text-gold-light">Defines You</span>
           </h1>
+        </motion.div>
 
-          {/* Subtitle with Genuine Brand Tone */}
-          <p className="text-base sm:text-lg text-canvas/80 font-sans font-light leading-relaxed max-w-xl">
-            Immerse yourself in authentic Indian heritage drapes and tailored couture. Handcrafted
-            pure silk Sarees and architectural Suits, tailored with timeless grace.
-          </p>
+        {/* Subtitle / Philosophy */}
+        <motion.p
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
+          className="max-w-2xl mx-auto text-sm sm:text-base md:text-lg text-white/80 font-sans font-light leading-relaxed mb-10"
+        >
+          Balaji Signatures is an Indian luxury women&apos;s ethnic fashion studio born from generational reverence for the handloom craft. Specializing exclusively in artisanal Sarees and tailored Suits.
+        </motion.p>
 
-          {/* Action Button Row */}
-          <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-            <Link
-              href="/shop"
-              className="inline-flex items-center justify-center gap-3 bg-gold-antique text-canvas px-8 py-4 text-xs uppercase tracking-regal font-sans font-semibold hover:bg-gold-deep transition-all duration-300 shadow-luxury group"
+        {/* Interactive CTA Buttons */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mb-16 w-full sm:w-auto"
+        >
+          <Button
+            href="/shop"
+            variant="primary"
+            size="lg"
+            icon={<ArrowRight className="w-4 h-4" />}
+            className="w-full sm:w-auto shadow-luxury"
+          >
+            Explore Sarees &amp; Suits
+          </Button>
+
+          <Button
+            href="/about"
+            variant="outline"
+            size="lg"
+            className="w-full sm:w-auto text-white border-white/40 hover:border-gold-antique hover:text-gold-light"
+          >
+            Our Atelier Story
+          </Button>
+        </motion.div>
+
+        {/* Animated Trust Strip with Icons */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.75, ease: [0.16, 1, 0.3, 1] }}
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 w-full max-w-3xl pt-8 border-t border-white/15"
+        >
+          {trustItems.map((item, idx) => (
+            <motion.div
+              key={idx}
+              whileHover={shouldReduceMotion ? {} : { y: -2 }}
+              className="flex items-center justify-center gap-3 p-3 rounded-none bg-white/5 backdrop-blur-sm border border-white/10"
             >
-              <span>Explore The Atelier</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
+              <div className="p-2 rounded-full bg-gold-antique/10 border border-gold-antique/20 flex-shrink-0">
+                {item.icon}
+              </div>
+              <div className="text-left">
+                <p className="text-xs uppercase tracking-eyebrow text-white font-medium">
+                  {item.title}
+                </p>
+                <p className="text-[11px] text-white/60 font-light font-sans">{item.desc}</p>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </motion.div>
 
-            <Link
-              href="/collection/sarees"
-              className="inline-flex items-center justify-center gap-2 border border-canvas/40 text-canvas px-8 py-4 text-xs uppercase tracking-regal font-sans font-medium hover:border-gold-antique hover:text-gold-light transition-colors backdrop-blur-sm"
-            >
-              <span>View Silk Sarees</span>
-            </Link>
-          </div>
-        </div>
-
-        {/* Bottom Feature Badges */}
-        <div className="mt-16 pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-xl">
-          <div>
-            <p className="text-[11px] uppercase tracking-regal text-gold-muted font-medium">Curation</p>
-            <p className="text-sm font-serif text-canvas mt-0.5">Sarees & Suits Only</p>
-          </div>
-          <div>
-            <p className="text-[11px] uppercase tracking-regal text-gold-muted font-medium">Purity</p>
-            <p className="text-sm font-serif text-canvas mt-0.5">100% Verified Handloom</p>
-          </div>
-          <div className="col-span-2 sm:col-span-1">
-            <p className="text-[11px] uppercase tracking-regal text-gold-muted font-medium">Studio Delivery</p>
-            <p className="text-sm font-serif text-canvas mt-0.5">Insured Pan-India</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      {/* Decorative fine gold line at bottom edge */}
+      <div className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-gradient-to-r from-transparent via-gold-antique/40 to-transparent" />
+    </div>
   );
 };
-

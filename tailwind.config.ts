@@ -12,16 +12,16 @@ const config: Config = {
         canvas: {
           DEFAULT: "#FFFFFF",
           subtle: "#FBF9F5",
-          warm: "#F5F1E9",
+          warm: "#F6F1E8",
         },
         gold: {
-          light: "#E3D3B5",
-          muted: "#C8AD78",
-          antique: "#B89758",
+          light: "#D8C29D",
+          muted: "#C4A674",
+          antique: "#B08D57",
           deep: "#8C6D36",
         },
         heritage: {
-          brown: "#2A1B14",
+          brown: "#2B1B14",
           deep: "#1A110D",
           border: "#E8E2D8",
           secondary: "#5C4E46",
@@ -29,24 +29,25 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["var(--font-cormorant)", "Georgia", "serif"],
-        display: ["var(--font-cinzel)", "Cinzel", "serif"],
-        sans: ["var(--font-montserrat)", "sans-serif"],
-      },
-      transitionTimingFunction: {
-        silk: "cubic-bezier(0.16, 1, 0.3, 1)",
+        serif: ["var(--font-serif)", "Georgia", "serif"],
+        display: ["var(--font-display)", "'Playfair Display'", "serif"],
+        sans: ["var(--font-sans)", "sans-serif"],
       },
       letterSpacing: {
+        eyebrow: "0.22em",
         regal: "0.2em",
         editorial: "0.08em",
       },
       boxShadow: {
-        luxury: "0 20px 40px -15px rgba(42, 27, 20, 0.08)",
-        "luxury-hover": "0 25px 50px -12px rgba(42, 27, 20, 0.16)",
+        luxury: "0 20px 40px -15px rgba(43, 27, 20, 0.08)",
+        "luxury-hover": "0 25px 50px -12px rgba(43, 27, 20, 0.16)",
+      },
+      transitionTimingFunction: {
+        silk: "cubic-bezier(0.16, 1, 0.3, 1)",
       },
     },
   },
   plugins: [],
 };
-export default config;
 
+export default config;

@@ -3,11 +3,12 @@ import './globals.css';
 import { CartProvider } from '@/context/CartContext';
 import { WishlistProvider } from '@/context/WishlistContext';
 import { StoreLayout } from '@/components/layout/StoreLayout';
+import { SmoothScroll } from '@/components/providers/SmoothScroll';
 
 export const metadata: Metadata = {
   title: 'Balaji Signatures | Luxury Indian Women’s Ethnic Fashion Studio',
   description:
-    'Balaji Signatures is a premier Indian fashion studio specializing exclusively in handcrafted Sarees and tailored Suits. Explore Kanjivaram silks, Banarasi weaves, and bespoke Anarkali silhouettes.',
+    'Balaji Signatures is an Indian luxury women’s ethnic fashion studio specializing exclusively in handcrafted Sarees and tailored Suits. Explore pure silk Kanjivarams, Banarasi weaves, and bespoke Anarkali silhouettes.',
   keywords: [
     'Balaji Signatures',
     'Sarees',
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
     'Anarkali Suits',
     'Banarasi Saree',
     'Handloom Saree',
+    'Designer Suits',
   ],
   openGraph: {
     title: 'Balaji Signatures | Luxury Indian Women’s Ethnic Fashion Studio',
@@ -35,11 +37,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        <CartProvider>
-          <WishlistProvider>
-            <StoreLayout>{children}</StoreLayout>
-          </WishlistProvider>
-        </CartProvider>
+        <SmoothScroll>
+          <CartProvider>
+            <WishlistProvider>
+              <StoreLayout>{children}</StoreLayout>
+            </WishlistProvider>
+          </CartProvider>
+        </SmoothScroll>
       </body>
     </html>
   );

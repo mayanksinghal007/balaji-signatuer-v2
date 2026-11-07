@@ -2,22 +2,22 @@ import { Product } from '@/types/product';
 
 export const PRODUCTS: Product[] = [
   {
-    "id": "sar-01",
-    "title": "Kanjivaram Zari Woven Pure Silk Saree",
-    "slug": "kanjivaram-zari-woven-pure-silk-saree",
+    "id": "BS-SAR-001",
+    "title": "Kanjivaram Zari Weave in Crimson Vermilion",
+    "slug": "kanjivaram-zari-weave-in-crimson-vermilion",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 14850,
-    "regularPrice": 19800,
-    "discount": 25,
+    "subCategory": "Silk",
+    "price": 14920,
+    "regularPrice": 18650,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-1.jpg",
       "/images/catalog/sarees/saree-2.jpg",
       "/images/catalog/sarees/saree-3.jpg"
     ],
-    "fabric": "Pure Mulberry Silk",
-    "craft": "Gold Zari Weave & Contrast Pallu",
-    "occasion": "Bridal & Royal Festivities",
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
     "color": "Crimson Vermilion",
     "inStock": true,
     "featured": true,
@@ -25,864 +25,2778 @@ export const PRODUCTS: Product[] = [
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "An architectural heirloom piece draped in pure mulberry silk, crowned with intricate temple gold zari borders and a regal kadwa pallu.",
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Crimson Vermilion with verified studio finishing.",
     "details": [
-      "Authentic Silk Mark certified handloom weave",
-      "Length: 5.5 meters saree + 0.8 meter matching blouse piece",
-      "Intricate floral jal in antique golden threads",
-      "Handcrafted by generational master weavers"
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
       "Dry clean only",
-      "Store wrapped in muslin cloth",
-      "Avoid direct perfume spray on zari"
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-02",
-    "title": "Banarasi Antique Gold Floral Drape Saree",
-    "slug": "banarasi-antique-gold-floral-drape-saree",
+    "id": "BS-SAR-002",
+    "title": "Banarasi Kadwa Brocade in Antique Gold",
+    "slug": "banarasi-kadwa-brocade-in-antique-gold",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 18500,
-    "regularPrice": 24500,
-    "discount": 24,
+    "subCategory": "Bridal/Wedding",
+    "price": 19840,
+    "regularPrice": 24800,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-2.jpg",
+      "/images/catalog/sarees/saree-3.jpg",
+      "/images/catalog/sarees/saree-4.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Antique Gold with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-003",
+    "title": "Scalloped Floral Organza in Emerald Forest",
+    "slug": "scalloped-floral-organza-in-emerald-forest",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 11560,
+    "regularPrice": 14450,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-3.jpg",
+      "/images/catalog/sarees/saree-4.jpg",
+      "/images/catalog/sarees/saree-5.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Emerald Forest with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-004",
+    "title": "Metallic Tissue Shimmer in Royal Midnight Navy",
+    "slug": "metallic-tissue-shimmer-in-royal-midnight-navy",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 13680,
+    "regularPrice": 17100,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-4.jpg",
       "/images/catalog/sarees/saree-5.jpg",
       "/images/catalog/sarees/saree-6.jpg"
     ],
-    "fabric": "Katan Silk & Tissue",
-    "craft": "Meenakari & Fine Antique Zari",
-    "occasion": "Weddings & Reception Galas",
-    "color": "Antique Gold & Rose",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Royal Midnight Navy",
     "inStock": true,
-    "featured": true,
+    "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "A luminous testament to Varanasi’s artisanal heritage. Featuring intricate meenakari booti motifs hand-interwoven with muted champagne gold zari.",
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Royal Midnight Navy with verified studio finishing.",
     "details": [
-      "Dual-tone metallic tissue silk sheen",
-      "Includes rich brocade unstitched blouse piece",
-      "Lightweight drape with substantial architectural pallu"
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Strictly professional dry clean",
-      "Low iron over reverse lining"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-03",
-    "title": "Hand-Embroidered Organza Silk Festive Saree",
-    "slug": "hand-embroidered-organza-silk-festive-saree",
+    "id": "BS-SAR-005",
+    "title": "Handloom Chanderi Zari in Mustard Haldi",
+    "slug": "handloom-chanderi-zari-in-mustard-haldi",
     "category": "Sarees",
-    "subCategory": "Organza Sarees",
-    "price": 11200,
-    "regularPrice": 14000,
+    "subCategory": "Cotton/Linen",
+    "price": 9800,
+    "regularPrice": 12250,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-5.jpg",
+      "/images/catalog/sarees/saree-6.jpg",
+      "/images/catalog/sarees/saree-7.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Mustard Haldi with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-006",
+    "title": "Botanical Motif Georgette in Dusty Rose",
+    "slug": "botanical-motif-georgette-in-dusty-rose",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 8320,
+    "regularPrice": 10400,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-6.jpg",
+      "/images/catalog/sarees/saree-7.jpg",
+      "/images/catalog/sarees/saree-8.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Dusty Rose with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-007",
+    "title": "Kanjivaram Zari Weave in Deep Wine",
+    "slug": "kanjivaram-zari-weave-in-deep-wine",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 15640,
+    "regularPrice": 19550,
     "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-7.jpg",
       "/images/catalog/sarees/saree-8.jpg",
       "/images/catalog/sarees/saree-9.jpg"
     ],
-    "fabric": "Pure Sheer Organza Silk",
-    "craft": "Scalloped Cutwork & Resham Threadwork",
-    "occasion": "Daytime Celebrations & Soirées",
-    "color": "Dusty Rose & Champagne",
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Deep Wine",
     "inStock": true,
     "featured": true,
-    "isNew": true,
+    "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Ethereal sheer organza embellished with hand-cut scalloped borders, soft resham floral sprays, and crystalline bead accents.",
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Deep Wine with verified studio finishing.",
     "details": [
-      "Featherlight weight for effortless, graceful movement",
-      "Hand-cut scalloped perimeter with delicate pearl edge",
-      "Contrasting raw silk unstitched blouse fabric included"
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Gentle dry clean only",
-      "Keep folded flat in breathable cloth"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-04",
-    "title": "Heritage Chanderi Zari Border Drape",
-    "slug": "heritage-chanderi-zari-border-drape",
+    "id": "BS-SAR-008",
+    "title": "Banarasi Kadwa Brocade in Ivory Off-White",
+    "slug": "banarasi-kadwa-brocade-in-ivory-off-white",
     "category": "Sarees",
-    "subCategory": "Chanderi Sarees",
-    "price": 8900,
-    "regularPrice": 11500,
-    "discount": 23,
+    "subCategory": "Bridal/Wedding",
+    "price": 20560,
+    "regularPrice": 25700,
+    "discount": 20,
     "images": [
-      "/images/catalog/sarees/saree-10.jpg",
-      "/images/catalog/sarees/saree-11.jpg",
-      "/images/catalog/sarees/saree-12.jpg"
+      "/images/catalog/sarees/saree-8.jpg",
+      "/images/catalog/sarees/saree-9.jpg",
+      "/images/catalog/sarees/saree-10.jpg"
     ],
-    "fabric": "Chanderi Silk-Cotton",
-    "craft": "Traditional Eknaliya Border Weaving",
-    "occasion": "Temple Rituals & Festive Gatherings",
-    "color": "Ivory & Peacock Teal",
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Ivory Off-White",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Breathes effortless quiet luxury. Woven with pure Chanderi yarn, accented by a geometric gold zari border and gossamer light drape.",
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Ivory Off-White with verified studio finishing.",
     "details": [
-      "Woven on traditional pit-looms in Madhya Pradesh",
-      "Translucent body with signature soft sheen",
-      "Running pure cotton-silk blouse piece included"
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
       "Dry clean only",
-      "Do not wring or soak"
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-05",
-    "title": "Royal Emerald Brocade Katan Silk Saree",
-    "slug": "royal-emerald-brocade-katan-silk-saree",
+    "id": "BS-SAR-009",
+    "title": "Scalloped Floral Organza in Peacock Teal",
+    "slug": "scalloped-floral-organza-in-peacock-teal",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 16900,
-    "regularPrice": 22000,
-    "discount": 23,
+    "subCategory": "Designer",
+    "price": 12280,
+    "regularPrice": 15350,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-9.jpg",
+      "/images/catalog/sarees/saree-10.jpg",
+      "/images/catalog/sarees/saree-11.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Peacock Teal",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Peacock Teal with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-010",
+    "title": "Metallic Tissue Shimmer in Terracotta Rust",
+    "slug": "metallic-tissue-shimmer-in-terracotta-rust",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 14400,
+    "regularPrice": 18000,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-10.jpg",
+      "/images/catalog/sarees/saree-11.jpg",
+      "/images/catalog/sarees/saree-12.jpg"
+    ],
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Terracotta Rust",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Terracotta Rust with verified studio finishing.",
+    "details": [
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-011",
+    "title": "Handloom Chanderi Zari in Plum Mauve",
+    "slug": "handloom-chanderi-zari-in-plum-mauve",
+    "category": "Sarees",
+    "subCategory": "Cotton/Linen",
+    "price": 10520,
+    "regularPrice": 13150,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-11.jpg",
+      "/images/catalog/sarees/saree-12.jpg",
+      "/images/catalog/sarees/saree-13.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Plum Mauve",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Plum Mauve with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-012",
+    "title": "Botanical Motif Georgette in Sunset Ochre",
+    "slug": "botanical-motif-georgette-in-sunset-ochre",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 9040,
+    "regularPrice": 11300,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-12.jpg",
+      "/images/catalog/sarees/saree-13.jpg",
+      "/images/catalog/sarees/saree-14.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Sunset Ochre",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Sunset Ochre with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-013",
+    "title": "Kanjivaram Zari Weave in Powder Sky Blue",
+    "slug": "kanjivaram-zari-weave-in-powder-sky-blue",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 16360,
+    "regularPrice": 20450,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-13.jpg",
       "/images/catalog/sarees/saree-14.jpg",
       "/images/catalog/sarees/saree-15.jpg"
     ],
-    "fabric": "Pure Katan Silk",
-    "craft": "Intricate Shikargah Antique Gold Weave",
-    "occasion": "Heritage Weddings & Royal Banquets",
-    "color": "Royal Emerald & Gold",
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Powder Sky Blue",
     "inStock": true,
     "featured": true,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Powder Sky Blue with verified studio finishing.",
+    "details": [
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-014",
+    "title": "Banarasi Kadwa Brocade in Marigold Orange",
+    "slug": "banarasi-kadwa-brocade-in-marigold-orange",
+    "category": "Sarees",
+    "subCategory": "Bridal/Wedding",
+    "price": 21280,
+    "regularPrice": 26600,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-14.jpg",
+      "/images/catalog/sarees/saree-15.jpg",
+      "/images/catalog/sarees/saree-16.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Marigold Orange",
+    "inStock": true,
+    "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Inspired by ancient royal archives, this emerald green drape carries majestic flora and fauna motifs woven in muted antique gold brocade.",
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Marigold Orange with verified studio finishing.",
     "details": [
-      "Heavy drape with regal fall and luxurious texture",
-      "Detailed hunting-scene motifs (Shikargah) in golden threads",
-      "Unstitched emerald brocade blouse fabric included"
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Specialized handloom dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-06",
-    "title": "Muted Wine Tissue Organza Drape",
-    "slug": "muted-wine-tissue-organza-drape",
+    "id": "BS-SAR-015",
+    "title": "Scalloped Floral Organza in Champagne Beige",
+    "slug": "scalloped-floral-organza-in-champagne-beige",
     "category": "Sarees",
-    "subCategory": "Organza Sarees",
-    "price": 12800,
-    "regularPrice": 16000,
+    "subCategory": "Designer",
+    "price": 13000,
+    "regularPrice": 16250,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-15.jpg",
+      "/images/catalog/sarees/saree-16.jpg",
+      "/images/catalog/sarees/saree-17.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Champagne Beige",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Champagne Beige with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-016",
+    "title": "Metallic Tissue Shimmer in Charcoal Slate",
+    "slug": "metallic-tissue-shimmer-in-charcoal-slate",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 15120,
+    "regularPrice": 18900,
     "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-16.jpg",
       "/images/catalog/sarees/saree-17.jpg",
       "/images/catalog/sarees/saree-18.jpg"
     ],
-    "fabric": "Tissue Silk & Organza",
-    "craft": "Zardozi Handwork & Gold Gota Detailing",
-    "occasion": "Cocktail Receptions & Festive Evenings",
-    "color": "Muted Wine & Copper",
-    "inStock": true,
-    "featured": false,
-    "isNew": true,
-    "sizes": [
-      "Free Size (Includes Unstitched Blouse Piece)"
-    ],
-    "description": "A contemporary silhouette woven with a delicate metallic luster. Finished with fine hand-rendered copper zardozi work along the pallu hem.",
-    "details": [
-      "Glimmering metallic warp and weft interplay",
-      "Sculptural drape that holds pleats crisply",
-      "Includes complementary tissue blouse fabric"
-    ],
-    "care": [
-      "Professional dry clean only",
-      "Store hung on padded hanger"
-    ]
-  },
-  {
-    "id": "sar-07",
-    "title": "Sunlit Ochre Pure Tussar Handloom Saree",
-    "slug": "sunlit-ochre-pure-tussar-handloom-saree",
-    "category": "Sarees",
-    "subCategory": "Tussar Sarees",
-    "price": 9800,
-    "regularPrice": 12500,
-    "discount": 22,
-    "images": [
-      "/images/catalog/sarees/saree-19.jpg",
-      "/images/catalog/sarees/saree-20.jpg",
-      "/images/catalog/sarees/saree-21.jpg"
-    ],
-    "fabric": "Wild Handspun Tussar Silk",
-    "craft": "Tribal Kantha Hand Stitch & Temple Borders",
-    "occasion": "Cultural Gatherings & Autumn Celebrations",
-    "color": "Sunset Ochre & Mustard",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Charcoal Slate",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Celebrates raw artisanal earthiness. Hand-spun wild tussar textured with organic slubs and highlighted by tonal kantha needlework.",
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Charcoal Slate with verified studio finishing.",
     "details": [
-      "100% natural wild tussar silk certification",
-      "Distinctive rich natural porous texture",
-      "Matching textured tussar unstitched blouse piece"
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean recommended",
-      "Steam iron on silk setting"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-08",
-    "title": "Midnight Indigo Banarasi Kadwa Silk Saree",
-    "slug": "midnight-indigo-banarasi-kadwa-silk-saree",
+    "id": "BS-SAR-017",
+    "title": "Handloom Chanderi Zari in Crimson Vermilion",
+    "slug": "handloom-chanderi-zari-in-crimson-vermilion",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 21500,
-    "regularPrice": 28000,
-    "discount": 23,
+    "subCategory": "Cotton/Linen",
+    "price": 11240,
+    "regularPrice": 14050,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-17.jpg",
+      "/images/catalog/sarees/saree-18.jpg",
+      "/images/catalog/sarees/saree-19.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Crimson Vermilion",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Crimson Vermilion with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-018",
+    "title": "Botanical Motif Georgette in Antique Gold",
+    "slug": "botanical-motif-georgette-in-antique-gold",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 9760,
+    "regularPrice": 12200,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-18.jpg",
+      "/images/catalog/sarees/saree-19.jpg",
+      "/images/catalog/sarees/saree-20.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Antique Gold with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-019",
+    "title": "Kanjivaram Zari Weave in Emerald Forest",
+    "slug": "kanjivaram-zari-weave-in-emerald-forest",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 17080,
+    "regularPrice": 21350,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-19.jpg",
+      "/images/catalog/sarees/saree-20.jpg",
+      "/images/catalog/sarees/saree-21.jpg"
+    ],
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": true,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Emerald Forest with verified studio finishing.",
+    "details": [
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-020",
+    "title": "Banarasi Kadwa Brocade in Royal Midnight Navy",
+    "slug": "banarasi-kadwa-brocade-in-royal-midnight-navy",
+    "category": "Sarees",
+    "subCategory": "Bridal/Wedding",
+    "price": 19600,
+    "regularPrice": 24500,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-20.jpg",
+      "/images/catalog/sarees/saree-21.jpg",
+      "/images/catalog/sarees/saree-22.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Royal Midnight Navy with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-021",
+    "title": "Scalloped Floral Organza in Mustard Haldi",
+    "slug": "scalloped-floral-organza-in-mustard-haldi",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 11320,
+    "regularPrice": 14150,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-21.jpg",
+      "/images/catalog/sarees/saree-22.jpg",
+      "/images/catalog/sarees/saree-23.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Mustard Haldi with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-022",
+    "title": "Metallic Tissue Shimmer in Dusty Rose",
+    "slug": "metallic-tissue-shimmer-in-dusty-rose",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 13440,
+    "regularPrice": 16800,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-22.jpg",
       "/images/catalog/sarees/saree-23.jpg",
       "/images/catalog/sarees/saree-24.jpg"
     ],
-    "fabric": "Pure Mulberry Katan Silk",
-    "craft": "Authentic Hand-Loomed Kadwa Booti",
-    "occasion": "Heirloom Trousseau & High Formalities",
-    "color": "Midnight Indigo & Silver",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Dusty Rose with verified studio finishing.",
+    "details": [
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-023",
+    "title": "Handloom Chanderi Zari in Deep Wine",
+    "slug": "handloom-chanderi-zari-in-deep-wine",
+    "category": "Sarees",
+    "subCategory": "Cotton/Linen",
+    "price": 9560,
+    "regularPrice": 11950,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-23.jpg",
+      "/images/catalog/sarees/saree-24.jpg",
+      "/images/catalog/sarees/saree-25.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Deep Wine",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Deep Wine with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-024",
+    "title": "Botanical Motif Georgette in Ivory Off-White",
+    "slug": "botanical-motif-georgette-in-ivory-off-white",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 8080,
+    "regularPrice": 10100,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-24.jpg",
+      "/images/catalog/sarees/saree-25.jpg",
+      "/images/catalog/sarees/saree-26.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Ivory Off-White with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-025",
+    "title": "Kanjivaram Zari Weave in Peacock Teal",
+    "slug": "kanjivaram-zari-weave-in-peacock-teal",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 15400,
+    "regularPrice": 19250,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-25.jpg",
+      "/images/catalog/sarees/saree-26.jpg",
+      "/images/catalog/sarees/saree-27.jpg"
+    ],
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Peacock Teal",
     "inStock": true,
     "featured": true,
     "isNew": true,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "A masterpiece from the master weavers of the sacred Ganges. Each booti motif is individually hand-locked without floating threads on the reverse.",
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Peacock Teal with verified studio finishing.",
     "details": [
-      "Pure Kadwa technique requiring up to 45 days to weave",
-      "Clean reverse side with zero loose zari threads",
-      "Heavy ornamental silver-gold contrast pallu"
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Museum conservation dry clean",
-      "Wrap in unbleached pure cotton"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-09",
-    "title": "Ruby Crimson Zari Bordered Saree",
-    "slug": "ruby-crimson-zari-bordered-saree",
+    "id": "BS-SAR-026",
+    "title": "Banarasi Kadwa Brocade in Terracotta Rust",
+    "slug": "banarasi-kadwa-brocade-in-terracotta-rust",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 13500,
-    "regularPrice": 17500,
-    "discount": 23,
+    "subCategory": "Bridal/Wedding",
+    "price": 20320,
+    "regularPrice": 25400,
+    "discount": 20,
     "images": [
-      "/images/catalog/sarees/saree-25.jpg",
       "/images/catalog/sarees/saree-26.jpg",
-      "/images/catalog/sarees/saree-27.jpg"
+      "/images/catalog/sarees/saree-27.jpg",
+      "/images/catalog/sarees/saree-28.jpg"
     ],
-    "fabric": "Pure Soft Silk",
-    "craft": "Woven Floral Border & Contrast Zari Pallu",
-    "occasion": "Bridal Festivities & Celebrations",
-    "color": "Ruby Crimson",
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Terracotta Rust",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "A striking crimson drape with rich temple borders and gleaming gold zari accents, crafted for celebratory opulence.",
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Terracotta Rust with verified studio finishing.",
     "details": [
-      "Pure silk texture",
-      "Comes with matching unstitched blouse piece",
-      "Length: 6.3m total"
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-10",
-    "title": "Marigold Yellow Festive Tissue Saree",
-    "slug": "marigold-yellow-festive-tissue-saree",
+    "id": "BS-SAR-027",
+    "title": "Scalloped Floral Organza in Plum Mauve",
+    "slug": "scalloped-floral-organza-in-plum-mauve",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 15200,
-    "regularPrice": 19000,
+    "subCategory": "Designer",
+    "price": 12040,
+    "regularPrice": 15050,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-27.jpg",
+      "/images/catalog/sarees/saree-28.jpg",
+      "/images/catalog/sarees/saree-29.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Plum Mauve",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Plum Mauve with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-028",
+    "title": "Metallic Tissue Shimmer in Sunset Ochre",
+    "slug": "metallic-tissue-shimmer-in-sunset-ochre",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 14160,
+    "regularPrice": 17700,
     "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-28.jpg",
       "/images/catalog/sarees/saree-29.jpg",
       "/images/catalog/sarees/saree-30.jpg"
     ],
-    "fabric": "Tissue Silk",
-    "craft": "Intricate Meenakari & Gold Zari Weave",
-    "occasion": "Haldi Ceremonies & Day Weddings",
-    "color": "Marigold Yellow",
-    "inStock": true,
-    "featured": true,
-    "isNew": true,
-    "sizes": [
-      "Free Size (Includes Unstitched Blouse Piece)"
-    ],
-    "description": "Radiating auspicious golden hues, this tissue silk saree glimmers with delicate floral vines and artisanal precision.",
-    "details": [
-      "Luminous metallic reflection",
-      "Brocade blouse fabric included",
-      "Lightweight and graceful"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sar-11",
-    "title": "Sapphire Blue Royal Brocade Saree",
-    "slug": "sapphire-blue-royal-brocade-saree",
-    "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 17800,
-    "regularPrice": 23000,
-    "discount": 23,
-    "images": [
-      "/images/catalog/sarees/saree-31.jpg",
-      "/images/catalog/sarees/saree-32.jpg",
-      "/images/catalog/sarees/saree-33.jpg"
-    ],
-    "fabric": "Katan Silk",
-    "craft": "All-over Zari Jal & Heavy Pallu",
-    "occasion": "Wedding Receptions & Royal Soirées",
-    "color": "Sapphire Blue",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Sunset Ochre",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Deep jewel-toned sapphire blue silk draped in opulent golden brocade vines, echoing majestic imperial court traditions.",
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Sunset Ochre with verified studio finishing.",
     "details": [
-      "Opulent floral jal weave",
-      "Includes designer brocade blouse",
-      "Mark of authenticity"
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-12",
-    "title": "Mint Sage Floral Embroidered Organza Saree",
-    "slug": "mint-sage-floral-embroidered-organza-saree",
+    "id": "BS-SAR-029",
+    "title": "Handloom Chanderi Zari in Powder Sky Blue",
+    "slug": "handloom-chanderi-zari-in-powder-sky-blue",
     "category": "Sarees",
-    "subCategory": "Organza Sarees",
-    "price": 12400,
-    "regularPrice": 15500,
+    "subCategory": "Cotton/Linen",
+    "price": 10280,
+    "regularPrice": 12850,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-29.jpg",
+      "/images/catalog/sarees/saree-30.jpg",
+      "/images/catalog/sarees/saree-31.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Powder Sky Blue",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Powder Sky Blue with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-030",
+    "title": "Botanical Motif Georgette in Marigold Orange",
+    "slug": "botanical-motif-georgette-in-marigold-orange",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 8800,
+    "regularPrice": 11000,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-30.jpg",
+      "/images/catalog/sarees/saree-31.jpg",
+      "/images/catalog/sarees/saree-32.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Marigold Orange",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Marigold Orange with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-031",
+    "title": "Kanjivaram Zari Weave in Champagne Beige",
+    "slug": "kanjivaram-zari-weave-in-champagne-beige",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 16120,
+    "regularPrice": 20150,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-31.jpg",
+      "/images/catalog/sarees/saree-32.jpg",
+      "/images/catalog/sarees/saree-33.jpg"
+    ],
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Champagne Beige",
+    "inStock": true,
+    "featured": true,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Champagne Beige with verified studio finishing.",
+    "details": [
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-032",
+    "title": "Banarasi Kadwa Brocade in Charcoal Slate",
+    "slug": "banarasi-kadwa-brocade-in-charcoal-slate",
+    "category": "Sarees",
+    "subCategory": "Bridal/Wedding",
+    "price": 21040,
+    "regularPrice": 26300,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-32.jpg",
+      "/images/catalog/sarees/saree-33.jpg",
+      "/images/catalog/sarees/saree-34.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Charcoal Slate",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Charcoal Slate with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-033",
+    "title": "Scalloped Floral Organza in Crimson Vermilion",
+    "slug": "scalloped-floral-organza-in-crimson-vermilion",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 12760,
+    "regularPrice": 15950,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-33.jpg",
+      "/images/catalog/sarees/saree-34.jpg",
+      "/images/catalog/sarees/saree-35.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Crimson Vermilion",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Crimson Vermilion with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-034",
+    "title": "Metallic Tissue Shimmer in Antique Gold",
+    "slug": "metallic-tissue-shimmer-in-antique-gold",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 14880,
+    "regularPrice": 18600,
     "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-34.jpg",
       "/images/catalog/sarees/saree-35.jpg",
       "/images/catalog/sarees/saree-36.jpg"
     ],
-    "fabric": "Sheer Organza Silk",
-    "craft": "Delicate Resham Embroidery & Cutwork Border",
-    "occasion": "Mehendi & Daytime Celebrations",
-    "color": "Mint Sage",
-    "inStock": true,
-    "featured": false,
-    "isNew": true,
-    "sizes": [
-      "Free Size (Includes Unstitched Blouse Piece)"
-    ],
-    "description": "Pastel serenity woven in sheer organza with hand-guided botanical resham embroidery and scalloped borders.",
-    "details": [
-      "Translucent airy drape",
-      "Scalloped cutwork edges",
-      "Unstitched satin silk blouse piece"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sar-13",
-    "title": "Pearl Ivory Handloom Chanderi Saree",
-    "slug": "pearl-ivory-handloom-chanderi-saree",
-    "category": "Sarees",
-    "subCategory": "Chanderi Sarees",
-    "price": 9400,
-    "regularPrice": 12000,
-    "discount": 22,
-    "images": [
-      "/images/catalog/sarees/saree-37.jpg",
-      "/images/catalog/sarees/saree-38.jpg",
-      "/images/catalog/sarees/saree-39.jpg"
-    ],
-    "fabric": "Chanderi Silk-Cotton",
-    "craft": "Fine Zari Border & Geometric Bootis",
-    "occasion": "Puja Rituals & Subtle Elegance",
-    "color": "Pearl Ivory",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Antique Gold",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "A whisper of quiet grandeur in pristine pearl ivory with antique gold zari border accents and hand-spun luster.",
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Antique Gold with verified studio finishing.",
     "details": [
-      "Breathable silk-cotton blend",
-      "Authentic Chanderi weave",
-      "Matching blouse piece"
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-14",
-    "title": "Peach Nectar Scalloped Organza Drape",
-    "slug": "peach-nectar-scalloped-organza-drape",
+    "id": "BS-SAR-035",
+    "title": "Handloom Chanderi Zari in Emerald Forest",
+    "slug": "handloom-chanderi-zari-in-emerald-forest",
     "category": "Sarees",
-    "subCategory": "Organza Sarees",
-    "price": 11800,
-    "regularPrice": 14800,
+    "subCategory": "Cotton/Linen",
+    "price": 11000,
+    "regularPrice": 13750,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-35.jpg",
+      "/images/catalog/sarees/saree-36.jpg",
+      "/images/catalog/sarees/saree-37.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Emerald Forest with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-036",
+    "title": "Botanical Motif Georgette in Royal Midnight Navy",
+    "slug": "botanical-motif-georgette-in-royal-midnight-navy",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 9520,
+    "regularPrice": 11900,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-36.jpg",
+      "/images/catalog/sarees/saree-37.jpg",
+      "/images/catalog/sarees/saree-38.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Royal Midnight Navy with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-037",
+    "title": "Kanjivaram Zari Weave in Mustard Haldi",
+    "slug": "kanjivaram-zari-weave-in-mustard-haldi",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 16840,
+    "regularPrice": 21050,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-37.jpg",
+      "/images/catalog/sarees/saree-38.jpg",
+      "/images/catalog/sarees/saree-39.jpg"
+    ],
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": true,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Mustard Haldi with verified studio finishing.",
+    "details": [
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-038",
+    "title": "Banarasi Kadwa Brocade in Dusty Rose",
+    "slug": "banarasi-kadwa-brocade-in-dusty-rose",
+    "category": "Sarees",
+    "subCategory": "Bridal/Wedding",
+    "price": 21760,
+    "regularPrice": 27200,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-38.jpg",
+      "/images/catalog/sarees/saree-39.jpg",
+      "/images/catalog/sarees/saree-40.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Dusty Rose with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-039",
+    "title": "Scalloped Floral Organza in Deep Wine",
+    "slug": "scalloped-floral-organza-in-deep-wine",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 13480,
+    "regularPrice": 16850,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-39.jpg",
+      "/images/catalog/sarees/saree-40.jpg",
+      "/images/catalog/sarees/saree-41.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Deep Wine",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Deep Wine with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-040",
+    "title": "Metallic Tissue Shimmer in Ivory Off-White",
+    "slug": "metallic-tissue-shimmer-in-ivory-off-white",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 13200,
+    "regularPrice": 16500,
     "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-40.jpg",
       "/images/catalog/sarees/saree-41.jpg",
       "/images/catalog/sarees/saree-42.jpg"
     ],
-    "fabric": "Fine Organza",
-    "craft": "Cutwork Hem & Zari Foil Embroidery",
-    "occasion": "Cocktails & Summer Weddings",
-    "color": "Peach Nectar",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Ivory Off-White with verified studio finishing.",
+    "details": [
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-041",
+    "title": "Handloom Chanderi Zari in Peacock Teal",
+    "slug": "handloom-chanderi-zari-in-peacock-teal",
+    "category": "Sarees",
+    "subCategory": "Cotton/Linen",
+    "price": 9320,
+    "regularPrice": 11650,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-41.jpg",
+      "/images/catalog/sarees/saree-42.jpg",
+      "/images/catalog/sarees/saree-43.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Peacock Teal",
     "inStock": true,
     "featured": false,
     "isNew": true,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Soft warm peach sheer drape with romantic scalloped embroidery, perfect for sunset celebrations and modern celebrations.",
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Peacock Teal with verified studio finishing.",
     "details": [
-      "Featherweight drape",
-      "Hand-trimmed perimeter",
-      "Included raw silk blouse"
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-15",
-    "title": "Rani Pink Heritage Banarasi Saree",
-    "slug": "rani-pink-heritage-banarasi-saree",
+    "id": "BS-SAR-042",
+    "title": "Botanical Motif Georgette in Terracotta Rust",
+    "slug": "botanical-motif-georgette-in-terracotta-rust",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 19200,
-    "regularPrice": 25000,
-    "discount": 23,
+    "subCategory": "Printed/Casual",
+    "price": 7840,
+    "regularPrice": 9800,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-42.jpg",
+      "/images/catalog/sarees/saree-43.jpg",
+      "/images/catalog/sarees/saree-44.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Terracotta Rust",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Terracotta Rust with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-043",
+    "title": "Kanjivaram Zari Weave in Plum Mauve",
+    "slug": "kanjivaram-zari-weave-in-plum-mauve",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 15160,
+    "regularPrice": 18950,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-43.jpg",
       "/images/catalog/sarees/saree-44.jpg",
       "/images/catalog/sarees/saree-45.jpg"
     ],
-    "fabric": "Pure Katan Silk",
-    "craft": "Traditional Zari Jal & Paisley Kadwa",
-    "occasion": "Bridal Trousseau & Festivals",
-    "color": "Rani Pink",
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Plum Mauve",
     "inStock": true,
     "featured": true,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "The quintessential Indian bridal pink, interwoven with heavy antique gold zari paisleys and opulent kadwa pallu.",
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Plum Mauve with verified studio finishing.",
     "details": [
-      "Pure silk mark certified",
-      "Heirloom trousseau piece",
-      "Matching heavy blouse piece"
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
       "Dry clean only",
-      "Store wrapped in muslin"
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-16",
-    "title": "Copper Rust Tussar Handloom Saree",
-    "slug": "copper-rust-tussar-handloom-saree",
+    "id": "BS-SAR-044",
+    "title": "Banarasi Kadwa Brocade in Sunset Ochre",
+    "slug": "banarasi-kadwa-brocade-in-sunset-ochre",
     "category": "Sarees",
-    "subCategory": "Tussar Sarees",
-    "price": 10500,
-    "regularPrice": 13500,
-    "discount": 22,
+    "subCategory": "Bridal/Wedding",
+    "price": 20080,
+    "regularPrice": 25100,
+    "discount": 20,
     "images": [
-      "/images/catalog/sarees/saree-46.jpg",
-      "/images/catalog/sarees/saree-47.jpg",
-      "/images/catalog/sarees/saree-48.jpg"
+      "/images/catalog/sarees/saree-44.jpg",
+      "/images/catalog/sarees/saree-45.jpg",
+      "/images/catalog/sarees/saree-46.jpg"
     ],
-    "fabric": "Pure Tussar Silk",
-    "craft": "Tribal Motif Weave & Temple Border",
-    "occasion": "Art Exhibitions & Cultural Soirées",
-    "color": "Copper Rust",
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Sunset Ochre",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Rich earth tones and rustic hand-spun textures crowned by subtle antique metallic highlights.",
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Sunset Ochre with verified studio finishing.",
     "details": [
-      "100% natural handloom tussar",
-      "Natural slub texture",
-      "Unstitched blouse piece"
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-17",
-    "title": "Coral Blossom Pure Silk Festive Drape",
-    "slug": "coral-blossom-pure-silk-festive-drape",
+    "id": "BS-SAR-045",
+    "title": "Scalloped Floral Organza in Powder Sky Blue",
+    "slug": "scalloped-floral-organza-in-powder-sky-blue",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 14200,
-    "regularPrice": 18000,
-    "discount": 21,
+    "subCategory": "Designer",
+    "price": 11800,
+    "regularPrice": 14750,
+    "discount": 20,
     "images": [
-      "/images/catalog/sarees/saree-49.jpg",
-      "/images/catalog/sarees/saree-50.jpg",
-      "/images/catalog/sarees/saree-51.jpg"
+      "/images/catalog/sarees/saree-45.jpg",
+      "/images/catalog/sarees/saree-46.jpg",
+      "/images/catalog/sarees/saree-47.jpg"
     ],
-    "fabric": "Pure Mulberry Silk",
-    "craft": "Gold Floral Buttas & Contrast Zari Border",
-    "occasion": "Diwali & Wedding Celebrations",
-    "color": "Coral Blossom",
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Powder Sky Blue",
     "inStock": true,
     "featured": false,
     "isNew": true,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Vibrant coral silk radiating timeless Indian warmth, bordered in intricate zari work and finished with delicate pallu tassels.",
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Powder Sky Blue with verified studio finishing.",
     "details": [
-      "Soft flowing pure silk",
-      "Contrast rich zari pallu",
-      "Blouse piece included"
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-18",
-    "title": "Lavender Lilac Ethereal Organza Saree",
-    "slug": "lavender-lilac-ethereal-organza-saree",
+    "id": "BS-SAR-046",
+    "title": "Metallic Tissue Shimmer in Marigold Orange",
+    "slug": "metallic-tissue-shimmer-in-marigold-orange",
     "category": "Sarees",
-    "subCategory": "Organza Sarees",
-    "price": 11900,
-    "regularPrice": 14900,
+    "subCategory": "Party Wear",
+    "price": 13920,
+    "regularPrice": 17400,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-46.jpg",
+      "/images/catalog/sarees/saree-47.jpg",
+      "/images/catalog/sarees/saree-48.jpg"
+    ],
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Marigold Orange",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Marigold Orange with verified studio finishing.",
+    "details": [
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-047",
+    "title": "Handloom Chanderi Zari in Champagne Beige",
+    "slug": "handloom-chanderi-zari-in-champagne-beige",
+    "category": "Sarees",
+    "subCategory": "Cotton/Linen",
+    "price": 10040,
+    "regularPrice": 12550,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-47.jpg",
+      "/images/catalog/sarees/saree-48.jpg",
+      "/images/catalog/sarees/saree-49.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Champagne Beige",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Champagne Beige with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-048",
+    "title": "Botanical Motif Georgette in Charcoal Slate",
+    "slug": "botanical-motif-georgette-in-charcoal-slate",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 8560,
+    "regularPrice": 10700,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-48.jpg",
+      "/images/catalog/sarees/saree-49.jpg",
+      "/images/catalog/sarees/saree-50.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Charcoal Slate",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Charcoal Slate with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-049",
+    "title": "Kanjivaram Zari Weave in Crimson Vermilion",
+    "slug": "kanjivaram-zari-weave-in-crimson-vermilion",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 15880,
+    "regularPrice": 19850,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-49.jpg",
+      "/images/catalog/sarees/saree-50.jpg",
+      "/images/catalog/sarees/saree-51.jpg"
+    ],
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Crimson Vermilion",
+    "inStock": true,
+    "featured": true,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Crimson Vermilion with verified studio finishing.",
+    "details": [
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-050",
+    "title": "Banarasi Kadwa Brocade in Antique Gold",
+    "slug": "banarasi-kadwa-brocade-in-antique-gold",
+    "category": "Sarees",
+    "subCategory": "Bridal/Wedding",
+    "price": 20800,
+    "regularPrice": 26000,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-50.jpg",
+      "/images/catalog/sarees/saree-51.jpg",
+      "/images/catalog/sarees/saree-52.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Antique Gold with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-051",
+    "title": "Scalloped Floral Organza in Emerald Forest",
+    "slug": "scalloped-floral-organza-in-emerald-forest",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 12520,
+    "regularPrice": 15650,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-51.jpg",
+      "/images/catalog/sarees/saree-52.jpg",
+      "/images/catalog/sarees/saree-53.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Emerald Forest with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-052",
+    "title": "Metallic Tissue Shimmer in Royal Midnight Navy",
+    "slug": "metallic-tissue-shimmer-in-royal-midnight-navy",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 14640,
+    "regularPrice": 18300,
     "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-52.jpg",
       "/images/catalog/sarees/saree-53.jpg",
       "/images/catalog/sarees/saree-54.jpg"
     ],
-    "fabric": "Pure Organza",
-    "craft": "Fine Resham Embroidery & Pearl Trim",
-    "occasion": "Engagement Ceremonies & High Tea",
-    "color": "Lavender Lilac",
-    "inStock": true,
-    "featured": false,
-    "isNew": true,
-    "sizes": [
-      "Free Size (Includes Unstitched Blouse Piece)"
-    ],
-    "description": "A contemporary pastel drape with delicate botanical threadwork and pearl-finished hems.",
-    "details": [
-      "Translucent dreamy sheen",
-      "Handcrafted pearl edge",
-      "Included crepe blouse"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sar-19",
-    "title": "Terracotta Orange Handloom Silk Saree",
-    "slug": "terracotta-orange-handloom-silk-saree",
-    "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 13800,
-    "regularPrice": 17800,
-    "discount": 22,
-    "images": [
-      "/images/catalog/sarees/saree-55.jpg",
-      "/images/catalog/sarees/saree-56.jpg",
-      "/images/catalog/sarees/saree-57.jpg"
-    ],
-    "fabric": "Handloom Soft Silk",
-    "craft": "Geometric Zari Motifs & Broad Temple Border",
-    "occasion": "Festive Poojas & Receptions",
-    "color": "Terracotta Orange",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Royal Midnight Navy",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Earthy warmth meets traditional temple craftsmanship in this lustrous terracotta silk masterpiece.",
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Royal Midnight Navy with verified studio finishing.",
     "details": [
-      "Pure handloom weave",
-      "Temple border architecture",
-      "Matching blouse piece"
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-20",
-    "title": "Bottle Green Royal Kanjivaram Saree",
-    "slug": "bottle-green-royal-kanjivaram-saree",
+    "id": "BS-SAR-053",
+    "title": "Handloom Chanderi Zari in Mustard Haldi",
+    "slug": "handloom-chanderi-zari-in-mustard-haldi",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 20500,
-    "regularPrice": 26500,
-    "discount": 23,
+    "subCategory": "Cotton/Linen",
+    "price": 10760,
+    "regularPrice": 13450,
+    "discount": 20,
     "images": [
-      "/images/catalog/sarees/saree-58.jpg",
-      "/images/catalog/sarees/saree-59.jpg",
-      "/images/catalog/sarees/saree-60.jpg"
+      "/images/catalog/sarees/saree-53.jpg",
+      "/images/catalog/sarees/saree-54.jpg",
+      "/images/catalog/sarees/saree-55.jpg"
     ],
-    "fabric": "Pure Kanjivaram Silk",
-    "craft": "Pure Gold Zari Korvai Weave",
-    "occasion": "Weddings & Muhurtham Ceremonies",
-    "color": "Bottle Green",
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Mustard Haldi with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-054",
+    "title": "Botanical Motif Georgette in Dusty Rose",
+    "slug": "botanical-motif-georgette-in-dusty-rose",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 9280,
+    "regularPrice": 11600,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-54.jpg",
+      "/images/catalog/sarees/saree-55.jpg",
+      "/images/catalog/sarees/saree-56.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Dusty Rose with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-055",
+    "title": "Kanjivaram Zari Weave in Deep Wine",
+    "slug": "kanjivaram-zari-weave-in-deep-wine",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 16600,
+    "regularPrice": 20750,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-55.jpg",
+      "/images/catalog/sarees/saree-56.jpg",
+      "/images/catalog/sarees/saree-57.jpg"
+    ],
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Deep Wine",
     "inStock": true,
     "featured": true,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Deep regal green body hand-interlocked with contrasting crimson and gold zari pallu in authentic Korvai craftsmanship.",
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Deep Wine with verified studio finishing.",
     "details": [
-      "Authentic Korvai technique",
-      "Silk Mark certified",
-      "Includes rich zari blouse"
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-21",
-    "title": "Deep Bronze Metallic Tissue Saree",
-    "slug": "deep-bronze-metallic-tissue-saree",
+    "id": "BS-SAR-056",
+    "title": "Banarasi Kadwa Brocade in Ivory Off-White",
+    "slug": "banarasi-kadwa-brocade-in-ivory-off-white",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 16400,
-    "regularPrice": 21000,
-    "discount": 22,
+    "subCategory": "Bridal/Wedding",
+    "price": 21520,
+    "regularPrice": 26900,
+    "discount": 20,
     "images": [
-      "/images/catalog/sarees/saree-61.jpg",
-      "/images/catalog/sarees/saree-62.jpg",
-      "/images/catalog/sarees/saree-63.jpg"
+      "/images/catalog/sarees/saree-56.jpg",
+      "/images/catalog/sarees/saree-57.jpg",
+      "/images/catalog/sarees/saree-58.jpg"
     ],
-    "fabric": "Metallic Tissue Silk",
-    "craft": "Zari Weaving & Minimalist Borders",
-    "occasion": "Sangeet & Evening Galas",
-    "color": "Deep Bronze",
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Ivory Off-White with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-057",
+    "title": "Scalloped Floral Organza in Peacock Teal",
+    "slug": "scalloped-floral-organza-in-peacock-teal",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 13240,
+    "regularPrice": 16550,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-57.jpg",
+      "/images/catalog/sarees/saree-58.jpg",
+      "/images/catalog/sarees/saree-59.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Peacock Teal",
     "inStock": true,
     "featured": false,
     "isNew": true,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Striking metallic luster with architectural fall, bringing contemporary flair to heritage drape craftsmanship.",
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Peacock Teal with verified studio finishing.",
     "details": [
-      "Lustrous dual-tone sheen",
-      "Structured pleat retention",
-      "Matching tissue blouse piece"
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-22",
-    "title": "Powder Blue Floral Embroidered Saree",
-    "slug": "powder-blue-floral-embroidered-saree",
+    "id": "BS-SAR-058",
+    "title": "Metallic Tissue Shimmer in Terracotta Rust",
+    "slug": "metallic-tissue-shimmer-in-terracotta-rust",
     "category": "Sarees",
-    "subCategory": "Organza Sarees",
-    "price": 12900,
-    "regularPrice": 16200,
+    "subCategory": "Party Wear",
+    "price": 15360,
+    "regularPrice": 19200,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-58.jpg",
+      "/images/catalog/sarees/saree-59.jpg",
+      "/images/catalog/sarees/saree-60.jpg"
+    ],
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Terracotta Rust",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Terracotta Rust with verified studio finishing.",
+    "details": [
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-059",
+    "title": "Handloom Chanderi Zari in Plum Mauve",
+    "slug": "handloom-chanderi-zari-in-plum-mauve",
+    "category": "Sarees",
+    "subCategory": "Cotton/Linen",
+    "price": 11480,
+    "regularPrice": 14350,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-59.jpg",
+      "/images/catalog/sarees/saree-60.jpg",
+      "/images/catalog/sarees/saree-61.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Plum Mauve",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Plum Mauve with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-060",
+    "title": "Botanical Motif Georgette in Sunset Ochre",
+    "slug": "botanical-motif-georgette-in-sunset-ochre",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 7600,
+    "regularPrice": 9500,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-60.jpg",
+      "/images/catalog/sarees/saree-61.jpg",
+      "/images/catalog/sarees/saree-62.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Sunset Ochre",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Sunset Ochre with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-061",
+    "title": "Kanjivaram Zari Weave in Powder Sky Blue",
+    "slug": "kanjivaram-zari-weave-in-powder-sky-blue",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 14920,
+    "regularPrice": 18650,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-61.jpg",
+      "/images/catalog/sarees/saree-62.jpg",
+      "/images/catalog/sarees/saree-63.jpg"
+    ],
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Powder Sky Blue",
+    "inStock": true,
+    "featured": true,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Powder Sky Blue with verified studio finishing.",
+    "details": [
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-062",
+    "title": "Banarasi Kadwa Brocade in Marigold Orange",
+    "slug": "banarasi-kadwa-brocade-in-marigold-orange",
+    "category": "Sarees",
+    "subCategory": "Bridal/Wedding",
+    "price": 19840,
+    "regularPrice": 24800,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-62.jpg",
+      "/images/catalog/sarees/saree-63.jpg",
+      "/images/catalog/sarees/saree-64.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Marigold Orange",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Marigold Orange with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-063",
+    "title": "Scalloped Floral Organza in Champagne Beige",
+    "slug": "scalloped-floral-organza-in-champagne-beige",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 11560,
+    "regularPrice": 14450,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-63.jpg",
+      "/images/catalog/sarees/saree-64.jpg",
+      "/images/catalog/sarees/saree-65.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Champagne Beige",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Champagne Beige with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-064",
+    "title": "Metallic Tissue Shimmer in Charcoal Slate",
+    "slug": "metallic-tissue-shimmer-in-charcoal-slate",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 13680,
+    "regularPrice": 17100,
     "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-64.jpg",
       "/images/catalog/sarees/saree-65.jpg",
       "/images/catalog/sarees/saree-66.jpg"
     ],
-    "fabric": "Pure Silk Organza",
-    "craft": "Threadwork & Micro-Sequin Shimmer",
-    "occasion": "Summer Weddings & Garden Parties",
-    "color": "Powder Blue",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Charcoal Slate",
     "inStock": true,
     "featured": false,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Soft powder blue gossamer drape infused with subtle micro-sequin glimmer and intricate botanical threadwork.",
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Charcoal Slate with verified studio finishing.",
     "details": [
-      "Lightweight organza body",
-      "Scalloped zari border",
-      "Unstitched blouse piece"
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-23",
-    "title": "Classic Maroon Bridal Handloom Saree",
-    "slug": "classic-maroon-bridal-handloom-saree",
+    "id": "BS-SAR-065",
+    "title": "Handloom Chanderi Zari in Crimson Vermilion",
+    "slug": "handloom-chanderi-zari-in-crimson-vermilion",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 22800,
-    "regularPrice": 29500,
-    "discount": 23,
+    "subCategory": "Cotton/Linen",
+    "price": 9800,
+    "regularPrice": 12250,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-65.jpg",
+      "/images/catalog/sarees/saree-66.jpg",
+      "/images/catalog/sarees/saree-67.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Crimson Vermilion",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Crimson Vermilion with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-066",
+    "title": "Botanical Motif Georgette in Antique Gold",
+    "slug": "botanical-motif-georgette-in-antique-gold",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 8320,
+    "regularPrice": 10400,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-66.jpg",
+      "/images/catalog/sarees/saree-67.jpg",
+      "/images/catalog/sarees/saree-68.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Antique Gold with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-067",
+    "title": "Kanjivaram Zari Weave in Emerald Forest",
+    "slug": "kanjivaram-zari-weave-in-emerald-forest",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 15640,
+    "regularPrice": 19550,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-67.jpg",
       "/images/catalog/sarees/saree-68.jpg",
       "/images/catalog/sarees/saree-69.jpg"
     ],
-    "fabric": "Pure Katan Silk",
-    "craft": "Kadwa Brocade & Floral Golden Jal",
-    "occasion": "Bridal Main Ceremony",
-    "color": "Classic Maroon",
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Emerald Forest",
     "inStock": true,
     "featured": true,
     "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "A timeless royal bridal saree woven in deep maroon katan silk with dense antique gold kadwa work across the entire silhouette.",
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Emerald Forest with verified studio finishing.",
     "details": [
-      "Generational heirloom",
-      "Pure gold zari weave",
-      "Matching brocade blouse"
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
       "Dry clean only",
-      "Keep in heirloom cotton wrap"
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-24",
-    "title": "Golden Champagne Tissue Handloom Saree",
-    "slug": "golden-champagne-tissue-handloom-saree",
+    "id": "BS-SAR-068",
+    "title": "Banarasi Kadwa Brocade in Royal Midnight Navy",
+    "slug": "banarasi-kadwa-brocade-in-royal-midnight-navy",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 17500,
-    "regularPrice": 22500,
-    "discount": 22,
+    "subCategory": "Bridal/Wedding",
+    "price": 20560,
+    "regularPrice": 25700,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-68.jpg",
+      "/images/catalog/sarees/saree-69.jpg",
+      "/images/catalog/sarees/saree-70.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Royal Midnight Navy with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-069",
+    "title": "Scalloped Floral Organza in Mustard Haldi",
+    "slug": "scalloped-floral-organza-in-mustard-haldi",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 12280,
+    "regularPrice": 15350,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-69.jpg",
+      "/images/catalog/sarees/saree-70.jpg",
+      "/images/catalog/sarees/saree-71.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Mustard Haldi with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-070",
+    "title": "Metallic Tissue Shimmer in Dusty Rose",
+    "slug": "metallic-tissue-shimmer-in-dusty-rose",
+    "category": "Sarees",
+    "subCategory": "Party Wear",
+    "price": 14400,
+    "regularPrice": 18000,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-70.jpg",
       "/images/catalog/sarees/saree-71.jpg",
       "/images/catalog/sarees/saree-72.jpg"
     ],
-    "fabric": "Pure Tissue Silk",
-    "craft": "Fine Zari Weave & Scallop Border",
-    "occasion": "Reception & Black Tie Ethnic Events",
-    "color": "Golden Champagne",
+    "fabric": "Metallic tissue silk-blend",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Sangeet nights and reception galas",
+    "color": "Dusty Rose",
     "inStock": true,
-    "featured": true,
-    "isNew": true,
+    "featured": false,
+    "isNew": false,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Effortlessly opulent champagne gold tissue saree that catches ambient lighting with subtle, dignified luxury.",
+    "description": "A dual-tone metallic tissue drape that produces a radiant golden shimmer under festive lighting. Tailored with clean architectural borders and lightweight fluidity for effortless evening wear. Pairs impeccably with statement heirloom jewellery. Finished in regal Dusty Rose with verified studio finishing.",
     "details": [
-      "Metallic fluid drape",
-      "Intricate scalloped pallu",
-      "Brocade blouse fabric"
+      "Luminous metallic warp and weft catching ambient evening light.",
+      "Crafted in luxury Metallic tissue silk-blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sar-25",
-    "title": "Plum Wine Kadwa Brocade Silk Saree",
-    "slug": "plum-wine-kadwa-brocade-silk-saree",
+    "id": "BS-SAR-071",
+    "title": "Handloom Chanderi Zari in Deep Wine",
+    "slug": "handloom-chanderi-zari-in-deep-wine",
     "category": "Sarees",
-    "subCategory": "Silk Sarees",
-    "price": 19800,
-    "regularPrice": 25500,
-    "discount": 22,
+    "subCategory": "Cotton/Linen",
+    "price": 10520,
+    "regularPrice": 13150,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-71.jpg",
+      "/images/catalog/sarees/saree-72.jpg",
+      "/images/catalog/sarees/saree-73.jpg"
+    ],
+    "fabric": "Chanderi silk-cotton weave",
+    "craft": "Cotton/Linen Craftsmanship",
+    "occasion": "Puja ceremonies and cultural gatherings",
+    "color": "Deep Wine",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Distinguished by a lightweight translucent body accented with fine antique gold zari eknaliya borders. The natural cotton-silk texture offers breathability throughout day-long rituals while retaining subtle sheen. Woven with geometric butta details. Finished in regal Deep Wine with verified studio finishing.",
+    "details": [
+      "Understated quiet luxury in breathable handloom silk-cotton.",
+      "Crafted in luxury Chanderi silk-cotton weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-072",
+    "title": "Botanical Motif Georgette in Ivory Off-White",
+    "slug": "botanical-motif-georgette-in-ivory-off-white",
+    "category": "Sarees",
+    "subCategory": "Printed/Casual",
+    "price": 9040,
+    "regularPrice": 11300,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-72.jpg",
+      "/images/catalog/sarees/saree-73.jpg",
+      "/images/catalog/sarees/saree-74.jpg"
+    ],
+    "fabric": "Pure fluid georgette",
+    "craft": "Printed/Casual Craftsmanship",
+    "occasion": "Intimate lunches and festive gatherings",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Soft fluid georgette adorned with artistic floral sprays and fine micro-foil piping. The drape naturally contours to every movement, offering comfortable sophistication for relaxed celebrations. Includes coordinating unstitched blouse piece. Finished in regal Ivory Off-White with verified studio finishing.",
+    "details": [
+      "Effortless fluid drape with graceful hand-rendered motifs.",
+      "Crafted in luxury Pure fluid georgette",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-073",
+    "title": "Kanjivaram Zari Weave in Peacock Teal",
+    "slug": "kanjivaram-zari-weave-in-peacock-teal",
+    "category": "Sarees",
+    "subCategory": "Silk",
+    "price": 16360,
+    "regularPrice": 20450,
+    "discount": 20,
     "images": [
       "/images/catalog/sarees/saree-73.jpg",
       "/images/catalog/sarees/saree-74.jpg",
       "/images/catalog/sarees/saree-75.jpg"
     ],
-    "fabric": "Pure Mulberry Silk",
-    "craft": "Antique Zari Kadwa Floral Bootas",
-    "occasion": "Winter Weddings & Receptions",
-    "color": "Plum Wine",
+    "fabric": "Silk-finish handloom weave",
+    "craft": "Silk Craftsmanship",
+    "occasion": "Royal celebrations and heritage festivals",
+    "color": "Peacock Teal",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "isNew": true,
     "sizes": [
       "Free Size (Includes Unstitched Blouse Piece)"
     ],
-    "description": "Rich jewel-toned plum silk accented with individual antique gold floral bootas crafted by Varanasi master weavers.",
+    "description": "Features an intricate antique gold zari border paired with traditional floral butta motifs across the body. The rich contrast pallu cascades with architectural symmetry, ideal for auspicious gatherings. Visual finish shows pure woven metallic luster with soft drape retention. Finished in regal Peacock Teal with verified studio finishing.",
     "details": [
-      "No floating threads on reverse",
-      "Substantial royal weight",
-      "Brocade blouse piece included"
+      "Timeless temple gold borders woven on lustrous silk canvas.",
+      "Crafted in luxury Silk-finish handloom weave",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-01",
-    "title": "Chanderi Silk Flared Anarkali Set with Organza Dupatta",
-    "slug": "chanderi-silk-flared-anarkali-set",
+    "id": "BS-SAR-074",
+    "title": "Banarasi Kadwa Brocade in Terracotta Rust",
+    "slug": "banarasi-kadwa-brocade-in-terracotta-rust",
+    "category": "Sarees",
+    "subCategory": "Bridal/Wedding",
+    "price": 21280,
+    "regularPrice": 26600,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-74.jpg",
+      "/images/catalog/sarees/saree-75.jpg",
+      "/images/catalog/sarees/saree-1.jpg"
+    ],
+    "fabric": "Brocade silk-blend drape",
+    "craft": "Bridal/Wedding Craftsmanship",
+    "occasion": "Weddings and royal reception galas",
+    "color": "Terracotta Rust",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Showcases dense hand-interwoven meenakari floral kadwa vines along a heavy scalloped border. The substantial weight provides a regal silhouette, complemented by an ornate gold brocade pallu. Ideal for main wedding rituals and heirloom wardrobes. Finished in regal Terracotta Rust with verified studio finishing.",
+    "details": [
+      "Imperial gold flora intricately interlocked across jewel-toned silk.",
+      "Crafted in luxury Brocade silk-blend drape",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SAR-075",
+    "title": "Scalloped Floral Organza in Plum Mauve",
+    "slug": "scalloped-floral-organza-in-plum-mauve",
+    "category": "Sarees",
+    "subCategory": "Designer",
+    "price": 13000,
+    "regularPrice": 16250,
+    "discount": 20,
+    "images": [
+      "/images/catalog/sarees/saree-75.jpg",
+      "/images/catalog/sarees/saree-1.jpg",
+      "/images/catalog/sarees/saree-2.jpg"
+    ],
+    "fabric": "Translucent sheer organza",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Daytime ceremonies and cocktail soirees",
+    "color": "Plum Mauve",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "Free Size (Includes Unstitched Blouse Piece)"
+    ],
+    "description": "Crafted from sheer organza featuring delicate hand-guided floral resham embroidery and laser-cut scalloped borders. The gossamer silhouette floats effortlessly with every step, offering modern festive refinement. Includes coordinating satin blouse fabric. Finished in regal Plum Mauve with verified studio finishing.",
+    "details": [
+      "Whisper-light translucent organza adorned with botanical embroidery.",
+      "Crafted in luxury Translucent sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-001",
+    "title": "Flared Silk Anarkali Set in Crimson Vermilion",
+    "slug": "flared-silk-anarkali-set-in-crimson-vermilion",
     "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 12500,
-    "regularPrice": 16500,
-    "discount": 24,
+    "subCategory": "Anarkali",
+    "price": 13300,
+    "regularPrice": 16620,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-1.jpg",
       "/images/catalog/suits/suit-2.jpg",
       "/images/catalog/suits/suit-3.jpg"
     ],
-    "fabric": "Pure Chanderi Silk & Organza",
-    "craft": "Gota Patti Handcraft & Zari Threadwork",
-    "occasion": "Sangeet Soirées & Intimate Weddings",
-    "color": "Olive Sage & Antique Gold",
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Crimson Vermilion",
     "inStock": true,
-    "featured": true,
-    "isNew": true,
+    "featured": false,
+    "isNew": false,
     "sizes": [
       "XS",
       "S",
@@ -891,308 +2805,78 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "A flowing 24-kali flared Anarkali silhouette tailored from pure Chanderi silk, accentuated with delicate gota patti handwork along the yoke and hemline.",
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Crimson Vermilion with hand-finished hems.",
     "details": [
-      "Set includes: Anarkali Kurta, Churidar Pants, and Hand-painted Organza Dupatta",
-      "Kurta length: 50 inches with full cotton mulmul lining",
-      "Handcrafted fabric potli buttons along neckline"
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
       "Dry clean only",
-      "Iron on reverse with low heat"
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-02",
-    "title": "Velvet Embroidered Straight-Cut Kurta & Pant Set",
-    "slug": "velvet-embroidered-straight-cut-kurta-set",
+    "id": "BS-SUI-002",
+    "title": "Viscose Georgette Sharara Set in Antique Gold",
+    "slug": "viscose-georgette-sharara-set-in-antique-gold",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 14200,
-    "regularPrice": 18500,
-    "discount": 23,
+    "subCategory": "Party Wear",
+    "price": 11790,
+    "regularPrice": 14740,
+    "discount": 20,
     "images": [
+      "/images/catalog/suits/suit-2.jpg",
+      "/images/catalog/suits/suit-3.jpg",
+      "/images/catalog/suits/suit-4.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Antique Gold with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-003",
+    "title": "Straight-Cut Trousers Suit in Emerald Forest",
+    "slug": "straight-cut-trousers-suit-in-emerald-forest",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 11090,
+    "regularPrice": 13860,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-3.jpg",
       "/images/catalog/suits/suit-4.jpg",
-      "/images/catalog/suits/suit-5.jpg",
-      "/images/catalog/suits/suit-6.jpg"
+      "/images/catalog/suits/suit-5.jpg"
     ],
-    "fabric": "Pure Micro-Velvet & Tissue Organza",
-    "craft": "Kashmiri Tilla & Fine Zardozi Needlework",
-    "occasion": "Winter Weddings & Evening Receptions",
-    "color": "Deep Burgundy Velvet",
-    "inStock": true,
-    "featured": true,
-    "isNew": false,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Regal micro-velvet tailored with clean architectural straight lines. The neckline and sleeves feature masterfully executed tilla embroidery.",
-    "details": [
-      "Set includes: Velvet Kurta, Straight Velvet Trousers, and Metallic Tissue Dupatta",
-      "Kurta length: 46 inches; Pant length: 38 inches with elasticated waistband",
-      "Lined in pure cotton for all-night comfort"
-    ],
-    "care": [
-      "Professional velvet dry clean only",
-      "Do not press directly with iron"
-    ]
-  },
-  {
-    "id": "sui-03",
-    "title": "Pure Georgette Sharara Set with Scalloped Dupatta",
-    "slug": "pure-georgette-sharara-set-scalloped-dupatta",
-    "category": "Suits",
-    "subCategory": "Sharara Sets",
-    "price": 13800,
-    "regularPrice": 17500,
-    "discount": 21,
-    "images": [
-      "/images/catalog/suits/suit-7.jpg",
-      "/images/catalog/suits/suit-8.jpg",
-      "/images/catalog/suits/suit-9.jpg"
-    ],
-    "fabric": "Pure Viscose Georgette",
-    "craft": "Lucknowi Chikankari & Muted Mukaish Detailing",
-    "occasion": "Mehendi Celebrations & Festive Luncheons",
-    "color": "Mustard Haldi & Gold",
-    "inStock": true,
-    "featured": true,
-    "isNew": true,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Vibrant celebratory elegance. Hand-rendered chikankari motifs across a flared tiered sharara silhouette, accompanied by delicate mukaish stars.",
-    "details": [
-      "Set includes: Short Peplum Kurta, Tiered Flared Sharara, and Scalloped Dupatta",
-      "Ultra-fluid georgette with exceptional bounce and swirl",
-      "Features discreet side zipper and secure inner lining"
-    ],
-    "care": [
-      "Gentle dry clean only"
-    ]
-  },
-  {
-    "id": "sui-04",
-    "title": "Silk Crepe Straight Suit with Zari Dabka Neckline",
-    "slug": "silk-crepe-straight-suit-zari-dabka",
-    "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 10500,
-    "regularPrice": 13800,
-    "discount": 24,
-    "images": [
-      "/images/catalog/suits/suit-10.jpg",
-      "/images/catalog/suits/suit-11.jpg",
-      "/images/catalog/suits/suit-12.jpg"
-    ],
-    "fabric": "Pure Silk Crepe",
-    "craft": "Dabka, Nakshi & Pearl Hand-Embellishment",
-    "occasion": "Formal Gatherings & Engagement Dinners",
-    "color": "Rose Quartz & Pearl",
-    "inStock": true,
-    "featured": false,
-    "isNew": false,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Minimalist luxury redefined. Silky smooth crepe with a structured boat neckline lavished in micro dabka work and real seed pearls.",
-    "details": [
-      "Set includes: Tailored Straight Kurta, Cigarette Pants, and Pure Chiffon Dupatta",
-      "Slender silhouette that flatters every body contour",
-      "Breathable all-weather luxury fabric"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sui-05",
-    "title": "Heritage Angrakha Flared Anarkali Suit Set",
-    "slug": "heritage-angrakha-flared-anarkali-suit-set",
-    "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 15500,
-    "regularPrice": 20500,
-    "discount": 24,
-    "images": [
-      "/images/catalog/suits/suit-13.jpg",
-      "/images/catalog/suits/suit-14.jpg",
-      "/images/catalog/suits/suit-15.jpg"
-    ],
-    "fabric": "Handloom Tussar Silk & Organza",
-    "craft": "Heritage Angrakha Overlap & Antique Zari Borders",
-    "occasion": "Diwali Banquets & Royal Galas",
-    "color": "Royal Midnight Navy",
-    "inStock": true,
-    "featured": true,
-    "isNew": false,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "A homage to princely court attire. Featuring a cross-over Angrakha torso tied with hand-beaded tassels, opening into a sweeping flared hem.",
-    "details": [
-      "Set includes: Angrakha Anarkali, Churidar, and Heavy Embroidered Dupatta",
-      "Dual-tone handloom silk with natural rustic sheen",
-      "Elaborate handcrafted dori tassels on waist"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sui-06",
-    "title": "Ivory Raw Silk Gharara Set with Heavy Dupatta",
-    "slug": "ivory-raw-silk-gharara-set-heavy-dupatta",
-    "category": "Suits",
-    "subCategory": "Gharara Sets",
-    "price": 16800,
-    "regularPrice": 22000,
-    "discount": 24,
-    "images": [
-      "/images/catalog/suits/suit-16.jpg",
-      "/images/catalog/suits/suit-17.jpg",
-      "/images/catalog/suits/suit-18.jpg"
-    ],
-    "fabric": "Pure Raw Silk & Net",
-    "craft": "Hand-Rendered Zardozi, Cutdana & Sequin Jal",
-    "occasion": "Nikah Ceremonies & Grand Receptions",
-    "color": "Ivory Off-White & Gold",
-    "inStock": true,
-    "featured": false,
-    "isNew": true,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Purity of form and needlework. Lustrous raw silk kurta paired with a flared ruched gharara and an ornate gold zari veil.",
-    "details": [
-      "Set includes: Short Kurti, Ruched Gharara Pants, and Embroidered Veil Dupatta",
-      "Substantial raw silk structure with soft modal lining",
-      "Antique champagne gold embroidery accents"
-    ],
-    "care": [
-      "Specialized bridal dry clean only"
-    ]
-  },
-  {
-    "id": "sui-07",
-    "title": "Pastel Organza Kurta & Trouser Set with Pearl Embroidery",
-    "slug": "pastel-organza-kurta-trouser-set",
-    "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 9900,
-    "regularPrice": 12900,
-    "discount": 23,
-    "images": [
-      "/images/catalog/suits/suit-19.jpg",
-      "/images/catalog/suits/suit-20.jpg",
-      "/images/catalog/suits/suit-21.jpg"
-    ],
-    "fabric": "Pure Silk Organza",
-    "craft": "Intricate Resham Thread & Mother-of-Pearl Work",
-    "occasion": "Day Soirées & Intimate Roka Ceremonies",
-    "color": "Powder Sky Blue",
-    "inStock": true,
-    "featured": false,
-    "isNew": false,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Light as morning mist. Translucent organza kurta with integrated inner slip, embroidered in tonal ivory flora and freshwater pearl accents.",
-    "details": [
-      "Set includes: Sheer Kurta, Separate Cotton Slip, Pants, and Dupatta",
-      "Modern, contemporary cut for the discerning patron",
-      "Comfortable straight fit trousers with side pockets"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sui-08",
-    "title": "Floor-Length Georgette Anarkali Gown Suit",
-    "slug": "floor-length-georgette-anarkali-gown-suit",
-    "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 13900,
-    "regularPrice": 17900,
-    "discount": 22,
-    "images": [
-      "/images/catalog/suits/suit-22.jpg",
-      "/images/catalog/suits/suit-23.jpg",
-      "/images/catalog/suits/suit-24.jpg"
-    ],
-    "fabric": "Pure Georgette & Net",
-    "craft": "Resham Threadwork & Shimmer Sequins",
-    "occasion": "Cocktail Receptions & Festive Soirées",
-    "color": "Dusty Peach & Silver Rose",
-    "inStock": true,
-    "featured": false,
-    "isNew": true,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "A floor-length gown-style suit in supple georgette with a voluminous twirl flare, delicate resham embroidery yoke, and matching soft net stole.",
-    "details": [
-      "Floor-touching flared silhouette",
-      "Lined in soft micro-crepe fabric",
-      "Padded bust cups for seamless silhouette structure"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sui-09",
-    "title": "Emerald Green Flared Anarkali Suit",
-    "slug": "emerald-green-flared-anarkali-suit",
-    "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 13400,
-    "regularPrice": 17200,
-    "discount": 22,
-    "images": [
-      "/images/catalog/suits/suit-25.jpg",
-      "/images/catalog/suits/suit-26.jpg",
-      "/images/catalog/suits/suit-27.jpg"
-    ],
-    "fabric": "Chanderi Silk & Mulmul",
-    "craft": "Golden Gota Patti & Zari Borders",
-    "occasion": "Mehendi & Festive Evenings",
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
     "color": "Emerald Forest",
     "inStock": true,
     "featured": false,
@@ -1205,36 +2889,1131 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "A rich emerald flared anarkali suit enhanced with geometric gold gota borders and a featherlight matching dupatta.",
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Emerald Forest with hand-finished hems.",
     "details": [
-      "Voluminous flair",
-      "Comfort cotton lining",
-      "Set of 3 with dupatta"
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-10",
-    "title": "Rust Amber Straight Silk Kurta Set",
-    "slug": "rust-amber-straight-silk-kurta-set",
+    "id": "BS-SUI-004",
+    "title": "Royal Micro-Velvet Zardozi Set in Royal Midnight Navy",
+    "slug": "royal-micro-velvet-zardozi-set-in-royal-midnight-navy",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 11200,
-    "regularPrice": 14500,
-    "discount": 23,
+    "subCategory": "Wedding Wear",
+    "price": 17580,
+    "regularPrice": 21980,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-4.jpg",
+      "/images/catalog/suits/suit-5.jpg",
+      "/images/catalog/suits/suit-6.jpg"
+    ],
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": true,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Royal Midnight Navy with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-005",
+    "title": "Handloom Cotton Silk Set in Mustard Haldi",
+    "slug": "handloom-cotton-silk-set-in-mustard-haldi",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 8320,
+    "regularPrice": 10400,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-5.jpg",
+      "/images/catalog/suits/suit-6.jpg",
+      "/images/catalog/suits/suit-7.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Mustard Haldi with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-006",
+    "title": "Longline Lace-Trim Kurta Set in Dusty Rose",
+    "slug": "longline-lace-trim-kurta-set-in-dusty-rose",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 12980,
+    "regularPrice": 16220,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-6.jpg",
+      "/images/catalog/suits/suit-7.jpg",
+      "/images/catalog/suits/suit-8.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Dusty Rose with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-007",
+    "title": "Flared Silk Anarkali Set in Deep Wine",
+    "slug": "flared-silk-anarkali-set-in-deep-wine",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 13870,
+    "regularPrice": 17340,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-7.jpg",
+      "/images/catalog/suits/suit-8.jpg",
+      "/images/catalog/suits/suit-9.jpg"
+    ],
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Deep Wine",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Deep Wine with hand-finished hems.",
+    "details": [
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-008",
+    "title": "Viscose Georgette Sharara Set in Ivory Off-White",
+    "slug": "viscose-georgette-sharara-set-in-ivory-off-white",
+    "category": "Suits",
+    "subCategory": "Party Wear",
+    "price": 12370,
+    "regularPrice": 15460,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-8.jpg",
+      "/images/catalog/suits/suit-9.jpg",
+      "/images/catalog/suits/suit-10.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Ivory Off-White with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-009",
+    "title": "Straight-Cut Trousers Suit in Peacock Teal",
+    "slug": "straight-cut-trousers-suit-in-peacock-teal",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 11660,
+    "regularPrice": 14580,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-9.jpg",
+      "/images/catalog/suits/suit-10.jpg",
+      "/images/catalog/suits/suit-11.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Peacock Teal",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Peacock Teal with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-010",
+    "title": "Royal Micro-Velvet Zardozi Set in Terracotta Rust",
+    "slug": "royal-micro-velvet-zardozi-set-in-terracotta-rust",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 18160,
+    "regularPrice": 22700,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-10.jpg",
+      "/images/catalog/suits/suit-11.jpg",
+      "/images/catalog/suits/suit-12.jpg"
+    ],
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Terracotta Rust",
+    "inStock": true,
+    "featured": true,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Terracotta Rust with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-011",
+    "title": "Handloom Cotton Silk Set in Plum Mauve",
+    "slug": "handloom-cotton-silk-set-in-plum-mauve",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 8900,
+    "regularPrice": 11120,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-11.jpg",
+      "/images/catalog/suits/suit-12.jpg",
+      "/images/catalog/suits/suit-13.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Plum Mauve",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Plum Mauve with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-012",
+    "title": "Longline Lace-Trim Kurta Set in Sunset Ochre",
+    "slug": "longline-lace-trim-kurta-set-in-sunset-ochre",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 13550,
+    "regularPrice": 16940,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-12.jpg",
+      "/images/catalog/suits/suit-13.jpg",
+      "/images/catalog/suits/suit-14.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Sunset Ochre",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Sunset Ochre with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-013",
+    "title": "Flared Silk Anarkali Set in Powder Sky Blue",
+    "slug": "flared-silk-anarkali-set-in-powder-sky-blue",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 14450,
+    "regularPrice": 18060,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-13.jpg",
+      "/images/catalog/suits/suit-14.jpg",
+      "/images/catalog/suits/suit-15.jpg"
+    ],
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Powder Sky Blue",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Powder Sky Blue with hand-finished hems.",
+    "details": [
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-014",
+    "title": "Viscose Georgette Sharara Set in Marigold Orange",
+    "slug": "viscose-georgette-sharara-set-in-marigold-orange",
+    "category": "Suits",
+    "subCategory": "Party Wear",
+    "price": 12940,
+    "regularPrice": 16180,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-14.jpg",
+      "/images/catalog/suits/suit-15.jpg",
+      "/images/catalog/suits/suit-16.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Marigold Orange",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Marigold Orange with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-015",
+    "title": "Straight-Cut Trousers Suit in Champagne Beige",
+    "slug": "straight-cut-trousers-suit-in-champagne-beige",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 12240,
+    "regularPrice": 15300,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-15.jpg",
+      "/images/catalog/suits/suit-16.jpg",
+      "/images/catalog/suits/suit-17.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Champagne Beige",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Champagne Beige with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-016",
+    "title": "Royal Micro-Velvet Zardozi Set in Charcoal Slate",
+    "slug": "royal-micro-velvet-zardozi-set-in-charcoal-slate",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 18740,
+    "regularPrice": 23420,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-16.jpg",
+      "/images/catalog/suits/suit-17.jpg",
+      "/images/catalog/suits/suit-18.jpg"
+    ],
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Charcoal Slate",
+    "inStock": true,
+    "featured": true,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Charcoal Slate with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-017",
+    "title": "Handloom Cotton Silk Set in Crimson Vermilion",
+    "slug": "handloom-cotton-silk-set-in-crimson-vermilion",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 9470,
+    "regularPrice": 11840,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-17.jpg",
+      "/images/catalog/suits/suit-18.jpg",
+      "/images/catalog/suits/suit-19.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Crimson Vermilion",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Crimson Vermilion with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-018",
+    "title": "Longline Lace-Trim Kurta Set in Antique Gold",
+    "slug": "longline-lace-trim-kurta-set-in-antique-gold",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 14130,
+    "regularPrice": 17660,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-18.jpg",
+      "/images/catalog/suits/suit-19.jpg",
+      "/images/catalog/suits/suit-20.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Antique Gold with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-019",
+    "title": "Flared Silk Anarkali Set in Emerald Forest",
+    "slug": "flared-silk-anarkali-set-in-emerald-forest",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 15020,
+    "regularPrice": 18780,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-19.jpg",
+      "/images/catalog/suits/suit-20.jpg",
+      "/images/catalog/suits/suit-21.jpg"
+    ],
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Emerald Forest with hand-finished hems.",
+    "details": [
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-020",
+    "title": "Viscose Georgette Sharara Set in Royal Midnight Navy",
+    "slug": "viscose-georgette-sharara-set-in-royal-midnight-navy",
+    "category": "Suits",
+    "subCategory": "Party Wear",
+    "price": 13520,
+    "regularPrice": 16900,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-20.jpg",
+      "/images/catalog/suits/suit-21.jpg",
+      "/images/catalog/suits/suit-22.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Royal Midnight Navy with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-021",
+    "title": "Straight-Cut Trousers Suit in Mustard Haldi",
+    "slug": "straight-cut-trousers-suit-in-mustard-haldi",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 10820,
+    "regularPrice": 13520,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-21.jpg",
+      "/images/catalog/suits/suit-22.jpg",
+      "/images/catalog/suits/suit-23.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Mustard Haldi with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-022",
+    "title": "Royal Micro-Velvet Zardozi Set in Dusty Rose",
+    "slug": "royal-micro-velvet-zardozi-set-in-dusty-rose",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 17310,
+    "regularPrice": 21640,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-22.jpg",
+      "/images/catalog/suits/suit-23.jpg",
+      "/images/catalog/suits/suit-24.jpg"
+    ],
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": true,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Dusty Rose with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-023",
+    "title": "Handloom Cotton Silk Set in Deep Wine",
+    "slug": "handloom-cotton-silk-set-in-deep-wine",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 8050,
+    "regularPrice": 10060,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-23.jpg",
+      "/images/catalog/suits/suit-24.jpg",
+      "/images/catalog/suits/suit-25.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Deep Wine",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Deep Wine with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-024",
+    "title": "Longline Lace-Trim Kurta Set in Ivory Off-White",
+    "slug": "longline-lace-trim-kurta-set-in-ivory-off-white",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 12700,
+    "regularPrice": 15880,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-24.jpg",
+      "/images/catalog/suits/suit-25.jpg",
+      "/images/catalog/suits/suit-26.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Ivory Off-White with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-025",
+    "title": "Flared Silk Anarkali Set in Peacock Teal",
+    "slug": "flared-silk-anarkali-set-in-peacock-teal",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 13600,
+    "regularPrice": 17000,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-25.jpg",
+      "/images/catalog/suits/suit-26.jpg",
+      "/images/catalog/suits/suit-27.jpg"
+    ],
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Peacock Teal",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Peacock Teal with hand-finished hems.",
+    "details": [
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-026",
+    "title": "Viscose Georgette Sharara Set in Terracotta Rust",
+    "slug": "viscose-georgette-sharara-set-in-terracotta-rust",
+    "category": "Suits",
+    "subCategory": "Party Wear",
+    "price": 12100,
+    "regularPrice": 15120,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-26.jpg",
+      "/images/catalog/suits/suit-27.jpg",
+      "/images/catalog/suits/suit-28.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Terracotta Rust",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Terracotta Rust with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-027",
+    "title": "Straight-Cut Trousers Suit in Plum Mauve",
+    "slug": "straight-cut-trousers-suit-in-plum-mauve",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 11390,
+    "regularPrice": 14240,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-27.jpg",
+      "/images/catalog/suits/suit-28.jpg",
+      "/images/catalog/suits/suit-29.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Plum Mauve",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Plum Mauve with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-028",
+    "title": "Royal Micro-Velvet Zardozi Set in Sunset Ochre",
+    "slug": "royal-micro-velvet-zardozi-set-in-sunset-ochre",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 17890,
+    "regularPrice": 22360,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-28.jpg",
       "/images/catalog/suits/suit-29.jpg",
       "/images/catalog/suits/suit-30.jpg"
     ],
-    "fabric": "Pure Raw Silk",
-    "craft": "Dabka & Resham Hand Embroidery",
-    "occasion": "Festive Dinners & Family Celebrations",
-    "color": "Rust Amber",
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Sunset Ochre",
     "inStock": true,
     "featured": true,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Sunset Ochre with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-029",
+    "title": "Handloom Cotton Silk Set in Powder Sky Blue",
+    "slug": "handloom-cotton-silk-set-in-powder-sky-blue",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 8620,
+    "regularPrice": 10780,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-29.jpg",
+      "/images/catalog/suits/suit-30.jpg",
+      "/images/catalog/suits/suit-31.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Powder Sky Blue",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Powder Sky Blue with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-030",
+    "title": "Longline Lace-Trim Kurta Set in Marigold Orange",
+    "slug": "longline-lace-trim-kurta-set-in-marigold-orange",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 13280,
+    "regularPrice": 16600,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-30.jpg",
+      "/images/catalog/suits/suit-31.jpg",
+      "/images/catalog/suits/suit-32.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Marigold Orange",
+    "inStock": true,
+    "featured": false,
     "isNew": true,
     "sizes": [
       "XS",
@@ -1244,34 +4023,37 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Earthy rust raw silk tailored with sophisticated clean lines, punctuated by artisan gold dabka embroidery on cuffs and neckline.",
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Marigold Orange with hand-finished hems.",
     "details": [
-      "Straight cut with side slits",
-      "Matching narrow trousers",
-      "Organza zari dupatta"
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-11",
-    "title": "Wine Crimson Embroidered Sharara Set",
-    "slug": "wine-crimson-embroidered-sharara-set",
+    "id": "BS-SUI-031",
+    "title": "Flared Silk Anarkali Set in Champagne Beige",
+    "slug": "flared-silk-anarkali-set-in-champagne-beige",
     "category": "Suits",
-    "subCategory": "Sharara Sets",
-    "price": 14500,
-    "regularPrice": 18900,
-    "discount": 23,
+    "subCategory": "Anarkali",
+    "price": 14180,
+    "regularPrice": 17720,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-31.jpg",
       "/images/catalog/suits/suit-32.jpg",
       "/images/catalog/suits/suit-33.jpg"
     ],
-    "fabric": "Viscose Georgette",
-    "craft": "Mirrorwork Accents & Zari Threadwork",
-    "occasion": "Sangeet & Wedding Receptions",
-    "color": "Wine Crimson",
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Champagne Beige",
     "inStock": true,
     "featured": false,
     "isNew": false,
@@ -1283,34 +4065,121 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Intense wine georgette tailored into a dramatic multi-tiered sharara, paired with an embroidered short peplum kurti.",
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Champagne Beige with hand-finished hems.",
     "details": [
-      "Flared multi-tier sharara",
-      "Fine mirrorwork yoke",
-      "Net dupatta with lace border"
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-12",
-    "title": "Champagne Beige Tissue Anarkali Set",
-    "slug": "champagne-beige-tissue-anarkali-set",
+    "id": "BS-SUI-032",
+    "title": "Viscose Georgette Sharara Set in Charcoal Slate",
+    "slug": "viscose-georgette-sharara-set-in-charcoal-slate",
     "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 15800,
-    "regularPrice": 20500,
-    "discount": 23,
+    "subCategory": "Party Wear",
+    "price": 12670,
+    "regularPrice": 15840,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-32.jpg",
+      "/images/catalog/suits/suit-33.jpg",
+      "/images/catalog/suits/suit-34.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Charcoal Slate",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Charcoal Slate with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-033",
+    "title": "Straight-Cut Trousers Suit in Crimson Vermilion",
+    "slug": "straight-cut-trousers-suit-in-crimson-vermilion",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 11970,
+    "regularPrice": 14960,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-33.jpg",
+      "/images/catalog/suits/suit-34.jpg",
+      "/images/catalog/suits/suit-35.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Crimson Vermilion",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Crimson Vermilion with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-034",
+    "title": "Royal Micro-Velvet Zardozi Set in Antique Gold",
+    "slug": "royal-micro-velvet-zardozi-set-in-antique-gold",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 18460,
+    "regularPrice": 23080,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-34.jpg",
       "/images/catalog/suits/suit-35.jpg",
       "/images/catalog/suits/suit-36.jpg"
     ],
-    "fabric": "Tissue Silk & Organza",
-    "craft": "Zardozi Handwork & Scalloped Dupatta",
-    "occasion": "Reception & Engagement Ceremonies",
-    "color": "Champagne Beige",
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Antique Gold",
     "inStock": true,
     "featured": true,
     "isNew": true,
@@ -1322,34 +4191,121 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Understated glamour in metallic tissue silk, tailored with regal kalis and finished with antique gold zardozi work.",
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Antique Gold with hand-finished hems.",
     "details": [
-      "Shimmering metallic sheen",
-      "Padded bust cups",
-      "Scalloped organza dupatta"
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-13",
-    "title": "Sunset Rust Flared Anarkali Set",
-    "slug": "sunset-rust-flared-anarkali-set",
+    "id": "BS-SUI-035",
+    "title": "Handloom Cotton Silk Set in Emerald Forest",
+    "slug": "handloom-cotton-silk-set-in-emerald-forest",
     "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 12800,
-    "regularPrice": 16400,
-    "discount": 22,
+    "subCategory": "Simple/Daily Wear",
+    "price": 9200,
+    "regularPrice": 11500,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-35.jpg",
+      "/images/catalog/suits/suit-36.jpg",
+      "/images/catalog/suits/suit-37.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Emerald Forest with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-036",
+    "title": "Longline Lace-Trim Kurta Set in Royal Midnight Navy",
+    "slug": "longline-lace-trim-kurta-set-in-royal-midnight-navy",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 13860,
+    "regularPrice": 17320,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-36.jpg",
+      "/images/catalog/suits/suit-37.jpg",
+      "/images/catalog/suits/suit-38.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Royal Midnight Navy with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-037",
+    "title": "Flared Silk Anarkali Set in Mustard Haldi",
+    "slug": "flared-silk-anarkali-set-in-mustard-haldi",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 14750,
+    "regularPrice": 18440,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-37.jpg",
       "/images/catalog/suits/suit-38.jpg",
       "/images/catalog/suits/suit-39.jpg"
     ],
-    "fabric": "Pure Georgette",
-    "craft": "Floral Resham Threadwork & Mirror Accents",
-    "occasion": "Haldi & Festive Luncheons",
-    "color": "Sunset Rust",
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Mustard Haldi",
     "inStock": true,
     "featured": false,
     "isNew": false,
@@ -1361,34 +4317,205 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Radiant warm tones crafted in fluid georgette with an expansive flare, matching pants, and hand-embroidered dupatta.",
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Mustard Haldi with hand-finished hems.",
     "details": [
-      "Flowing circular flare",
-      "Soft crepe lining",
-      "Handcrafted tie-up dori"
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-14",
-    "title": "Mauve Lilac Straight Cut Silk Suit",
-    "slug": "mauve-lilac-straight-cut-silk-suit",
+    "id": "BS-SUI-038",
+    "title": "Viscose Georgette Sharara Set in Dusty Rose",
+    "slug": "viscose-georgette-sharara-set-in-dusty-rose",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 10800,
-    "regularPrice": 13900,
-    "discount": 22,
+    "subCategory": "Party Wear",
+    "price": 13250,
+    "regularPrice": 16560,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-38.jpg",
+      "/images/catalog/suits/suit-39.jpg",
+      "/images/catalog/suits/suit-40.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Dusty Rose with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-039",
+    "title": "Straight-Cut Trousers Suit in Deep Wine",
+    "slug": "straight-cut-trousers-suit-in-deep-wine",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 12540,
+    "regularPrice": 15680,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-39.jpg",
+      "/images/catalog/suits/suit-40.jpg",
+      "/images/catalog/suits/suit-41.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Deep Wine",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Deep Wine with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-040",
+    "title": "Royal Micro-Velvet Zardozi Set in Ivory Off-White",
+    "slug": "royal-micro-velvet-zardozi-set-in-ivory-off-white",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 19040,
+    "regularPrice": 23800,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-40.jpg",
       "/images/catalog/suits/suit-41.jpg",
       "/images/catalog/suits/suit-42.jpg"
     ],
-    "fabric": "Chanderi Silk",
-    "craft": "Silver Zari Bootis & Threadwork",
-    "occasion": "Intimate Ceremonies & Gatherings",
-    "color": "Mauve Lilac",
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": true,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Ivory Off-White with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-041",
+    "title": "Handloom Cotton Silk Set in Peacock Teal",
+    "slug": "handloom-cotton-silk-set-in-peacock-teal",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 9780,
+    "regularPrice": 12220,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-41.jpg",
+      "/images/catalog/suits/suit-42.jpg",
+      "/images/catalog/suits/suit-43.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Peacock Teal",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Peacock Teal with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-042",
+    "title": "Longline Lace-Trim Kurta Set in Terracotta Rust",
+    "slug": "longline-lace-trim-kurta-set-in-terracotta-rust",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 12430,
+    "regularPrice": 15540,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-42.jpg",
+      "/images/catalog/suits/suit-43.jpg",
+      "/images/catalog/suits/suit-44.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Terracotta Rust",
     "inStock": true,
     "featured": false,
     "isNew": true,
@@ -1400,36 +4527,39 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Contemporary pastel sophistication in soft chanderi silk with understated metallic accents and cigarette pants.",
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Terracotta Rust with hand-finished hems.",
     "details": [
-      "Straight fit silhouette",
-      "Includes straight pants with pockets",
-      "Sheer organza dupatta"
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-15",
-    "title": "Golden Ochre Embroidered Gharara Set",
-    "slug": "golden-ochre-embroidered-gharara-set",
+    "id": "BS-SUI-043",
+    "title": "Flared Silk Anarkali Set in Plum Mauve",
+    "slug": "flared-silk-anarkali-set-in-plum-mauve",
     "category": "Suits",
-    "subCategory": "Gharara Sets",
-    "price": 16200,
-    "regularPrice": 21000,
-    "discount": 23,
+    "subCategory": "Anarkali",
+    "price": 13330,
+    "regularPrice": 16660,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-43.jpg",
       "/images/catalog/suits/suit-44.jpg",
       "/images/catalog/suits/suit-45.jpg"
     ],
-    "fabric": "Raw Silk & Crepe",
-    "craft": "Traditional Zardozi & Gota Work",
-    "occasion": "Mehendi & Festive Ceremonies",
-    "color": "Golden Ochre",
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Plum Mauve",
     "inStock": true,
-    "featured": true,
+    "featured": false,
     "isNew": false,
     "sizes": [
       "XS",
@@ -1439,36 +4569,123 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "A striking traditional silhouette featuring an opulent flared gharara adorned with gota bands and zardozi embellishments.",
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Plum Mauve with hand-finished hems.",
     "details": [
-      "Gathered knee-joint flare",
-      "Short tailored kurti",
-      "Embroidered dupatta included"
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-16",
-    "title": "Charcoal Slate Velvet Formal Suit Set",
-    "slug": "charcoal-slate-velvet-formal-suit-set",
+    "id": "BS-SUI-044",
+    "title": "Viscose Georgette Sharara Set in Sunset Ochre",
+    "slug": "viscose-georgette-sharara-set-in-sunset-ochre",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 14800,
-    "regularPrice": 19200,
-    "discount": 23,
+    "subCategory": "Party Wear",
+    "price": 11820,
+    "regularPrice": 14780,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-44.jpg",
+      "/images/catalog/suits/suit-45.jpg",
+      "/images/catalog/suits/suit-46.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Sunset Ochre",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Sunset Ochre with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-045",
+    "title": "Straight-Cut Trousers Suit in Powder Sky Blue",
+    "slug": "straight-cut-trousers-suit-in-powder-sky-blue",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 11120,
+    "regularPrice": 13900,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-45.jpg",
+      "/images/catalog/suits/suit-46.jpg",
+      "/images/catalog/suits/suit-47.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Powder Sky Blue",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Powder Sky Blue with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-046",
+    "title": "Royal Micro-Velvet Zardozi Set in Marigold Orange",
+    "slug": "royal-micro-velvet-zardozi-set-in-marigold-orange",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 17620,
+    "regularPrice": 22020,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-46.jpg",
       "/images/catalog/suits/suit-47.jpg",
       "/images/catalog/suits/suit-48.jpg"
     ],
-    "fabric": "Micro Velvet",
-    "craft": "Antique Silver Tilla Needlework",
-    "occasion": "Winter Evening Parties & Receptions",
-    "color": "Charcoal Slate",
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Marigold Orange",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "isNew": true,
     "sizes": [
       "XS",
@@ -1478,34 +4695,121 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Sumptuous dark velvet tailored into a stately straight kurta with intricate silver tilla embroidery on yoke and cuffs.",
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Marigold Orange with hand-finished hems.",
     "details": [
-      "Plush micro-velvet touch",
-      "Matching velvet trousers",
-      "Tissue silk stole"
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-17",
-    "title": "Coral Blush Flared Anarkali Suit",
-    "slug": "coral-blush-flared-anarkali-suit",
+    "id": "BS-SUI-047",
+    "title": "Handloom Cotton Silk Set in Champagne Beige",
+    "slug": "handloom-cotton-silk-set-in-champagne-beige",
     "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 13600,
-    "regularPrice": 17500,
-    "discount": 22,
+    "subCategory": "Simple/Daily Wear",
+    "price": 8350,
+    "regularPrice": 10440,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-47.jpg",
+      "/images/catalog/suits/suit-48.jpg",
+      "/images/catalog/suits/suit-49.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Champagne Beige",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Champagne Beige with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-048",
+    "title": "Longline Lace-Trim Kurta Set in Charcoal Slate",
+    "slug": "longline-lace-trim-kurta-set-in-charcoal-slate",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 13010,
+    "regularPrice": 16260,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-48.jpg",
+      "/images/catalog/suits/suit-49.jpg",
+      "/images/catalog/suits/suit-50.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Charcoal Slate",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Charcoal Slate with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-049",
+    "title": "Flared Silk Anarkali Set in Crimson Vermilion",
+    "slug": "flared-silk-anarkali-set-in-crimson-vermilion",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 13900,
+    "regularPrice": 17380,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-49.jpg",
       "/images/catalog/suits/suit-50.jpg",
       "/images/catalog/suits/suit-51.jpg"
     ],
-    "fabric": "Pure Georgette",
-    "craft": "Sequin Floral Motifs & Lace Trims",
-    "occasion": "Day Weddings & Cocktail Dinners",
-    "color": "Coral Blush",
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Crimson Vermilion",
     "inStock": true,
     "featured": false,
     "isNew": false,
@@ -1517,34 +4821,205 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Feminine, graceful silhouette in delicate blush georgette with twinkling sequin vines and coordinating soft dupatta.",
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Crimson Vermilion with hand-finished hems.",
     "details": [
-      "24-kali flare",
-      "Cotton mulmul inner lining",
-      "Pencil pants included"
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-18",
-    "title": "Seafoam Green Straight Handloom Suit",
-    "slug": "seafoam-green-straight-handloom-suit",
+    "id": "BS-SUI-050",
+    "title": "Viscose Georgette Sharara Set in Antique Gold",
+    "slug": "viscose-georgette-sharara-set-in-antique-gold",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 10200,
-    "regularPrice": 13200,
-    "discount": 23,
+    "subCategory": "Party Wear",
+    "price": 12400,
+    "regularPrice": 15500,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-50.jpg",
+      "/images/catalog/suits/suit-51.jpg",
+      "/images/catalog/suits/suit-52.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Antique Gold with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-051",
+    "title": "Straight-Cut Trousers Suit in Emerald Forest",
+    "slug": "straight-cut-trousers-suit-in-emerald-forest",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 11700,
+    "regularPrice": 14620,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-51.jpg",
+      "/images/catalog/suits/suit-52.jpg",
+      "/images/catalog/suits/suit-53.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Emerald Forest with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-052",
+    "title": "Royal Micro-Velvet Zardozi Set in Royal Midnight Navy",
+    "slug": "royal-micro-velvet-zardozi-set-in-royal-midnight-navy",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 18190,
+    "regularPrice": 22740,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-52.jpg",
       "/images/catalog/suits/suit-53.jpg",
       "/images/catalog/suits/suit-54.jpg"
     ],
-    "fabric": "Handloom Cotton Silk",
-    "craft": "Threadwork & Zari Borders",
-    "occasion": "Festive Lunches & Family Poojas",
-    "color": "Seafoam Green",
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": true,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Royal Midnight Navy with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-053",
+    "title": "Handloom Cotton Silk Set in Mustard Haldi",
+    "slug": "handloom-cotton-silk-set-in-mustard-haldi",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 8930,
+    "regularPrice": 11160,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-53.jpg",
+      "/images/catalog/suits/suit-54.jpg",
+      "/images/catalog/suits/suit-55.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Mustard Haldi with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-054",
+    "title": "Longline Lace-Trim Kurta Set in Dusty Rose",
+    "slug": "longline-lace-trim-kurta-set-in-dusty-rose",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 13580,
+    "regularPrice": 16980,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-54.jpg",
+      "/images/catalog/suits/suit-55.jpg",
+      "/images/catalog/suits/suit-56.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Dusty Rose",
     "inStock": true,
     "featured": false,
     "isNew": true,
@@ -1556,34 +5031,37 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Serene seafoam tones in breathable cotton silk, tailored with understated elegance for day-long festive comfort.",
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Dusty Rose with hand-finished hems.",
     "details": [
-      "Breathable natural fabric",
-      "Matching straight pants",
-      "Zari-striped dupatta"
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-19",
-    "title": "Copper Spice Peplum Sharara Set",
-    "slug": "copper-spice-peplum-sharara-set",
+    "id": "BS-SUI-055",
+    "title": "Flared Silk Anarkali Set in Deep Wine",
+    "slug": "flared-silk-anarkali-set-in-deep-wine",
     "category": "Suits",
-    "subCategory": "Sharara Sets",
-    "price": 14900,
-    "regularPrice": 19500,
-    "discount": 24,
+    "subCategory": "Anarkali",
+    "price": 14480,
+    "regularPrice": 18100,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-55.jpg",
       "/images/catalog/suits/suit-56.jpg",
       "/images/catalog/suits/suit-57.jpg"
     ],
-    "fabric": "Viscose Silk & Georgette",
-    "craft": "Gota Patti & Foil Mirror Work",
-    "occasion": "Sangeet & Wedding Receptions",
-    "color": "Copper Spice",
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Deep Wine",
     "inStock": true,
     "featured": false,
     "isNew": false,
@@ -1595,36 +5073,165 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Warm metallic shimmer on a contemporary peplum kurta paired with voluminous flared sharara pants.",
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Deep Wine with hand-finished hems.",
     "details": [
-      "Flared peplum cut",
-      "Elasticated sharara waist",
-      "Matching embroidered dupatta"
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-20",
-    "title": "Ruby Maroon Bridal Velvet Suit Set",
-    "slug": "ruby-maroon-bridal-velvet-suit-set",
+    "id": "BS-SUI-056",
+    "title": "Viscose Georgette Sharara Set in Ivory Off-White",
+    "slug": "viscose-georgette-sharara-set-in-ivory-off-white",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 16500,
-    "regularPrice": 21500,
-    "discount": 23,
+    "subCategory": "Party Wear",
+    "price": 12980,
+    "regularPrice": 16220,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-56.jpg",
+      "/images/catalog/suits/suit-57.jpg",
+      "/images/catalog/suits/suit-58.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Ivory Off-White with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-057",
+    "title": "Straight-Cut Trousers Suit in Peacock Teal",
+    "slug": "straight-cut-trousers-suit-in-peacock-teal",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 12270,
+    "regularPrice": 15340,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-57.jpg",
+      "/images/catalog/suits/suit-58.jpg",
+      "/images/catalog/suits/suit-59.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Peacock Teal",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Peacock Teal with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-058",
+    "title": "Royal Micro-Velvet Zardozi Set in Terracotta Rust",
+    "slug": "royal-micro-velvet-zardozi-set-in-terracotta-rust",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 18770,
+    "regularPrice": 23460,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-58.jpg",
       "/images/catalog/suits/suit-59.jpg",
       "/images/catalog/suits/suit-60.jpg"
     ],
-    "fabric": "Royal Velvet & Organza",
-    "craft": "Heavy Zardozi Dabka & Pearl Borders",
-    "occasion": "Winter Bridal & Reception Events",
-    "color": "Ruby Maroon",
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Terracotta Rust",
     "inStock": true,
     "featured": true,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Terracotta Rust with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-059",
+    "title": "Handloom Cotton Silk Set in Plum Mauve",
+    "slug": "handloom-cotton-silk-set-in-plum-mauve",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 9500,
+    "regularPrice": 11880,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-59.jpg",
+      "/images/catalog/suits/suit-60.jpg",
+      "/images/catalog/suits/suit-61.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Plum Mauve",
+    "inStock": true,
+    "featured": false,
     "isNew": false,
     "sizes": [
       "XS",
@@ -1634,73 +5241,79 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "The pinnacle of winter festive luxury. Rich ruby velvet adorned with hand-embroidered zardozi and delicate seed pearl borders.",
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Plum Mauve with hand-finished hems.",
     "details": [
-      "Dense bridal hand-embroidery",
-      "Velvet pants with hem work",
-      "Contrasting tissue dupatta"
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Specialized dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-21",
-    "title": "Deep Amethyst Straight Kurta Set",
-    "slug": "deep-amethyst-straight-kurta-set",
+    "id": "BS-SUI-060",
+    "title": "Longline Lace-Trim Kurta Set in Sunset Ochre",
+    "slug": "longline-lace-trim-kurta-set-in-sunset-ochre",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 11900,
-    "regularPrice": 15400,
-    "discount": 23,
+    "subCategory": "Pakistani-style",
+    "price": 14160,
+    "regularPrice": 17700,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-60.jpg",
+      "/images/catalog/suits/suit-61.jpg",
+      "/images/catalog/suits/suit-62.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Sunset Ochre",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Sunset Ochre with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-061",
+    "title": "Flared Silk Anarkali Set in Powder Sky Blue",
+    "slug": "flared-silk-anarkali-set-in-powder-sky-blue",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 15060,
+    "regularPrice": 18820,
+    "discount": 20,
     "images": [
       "/images/catalog/suits/suit-61.jpg",
       "/images/catalog/suits/suit-62.jpg",
       "/images/catalog/suits/suit-63.jpg"
     ],
-    "fabric": "Pure Silk Crepe",
-    "craft": "Resham Floral Yoke & Zari Piping",
-    "occasion": "Festive Dinners & Receptions",
-    "color": "Deep Amethyst",
-    "inStock": true,
-    "featured": false,
-    "isNew": true,
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "Regal jewel-tone purple drape with fine resham embroidery framing the neckline, paired with tailored trousers.",
-    "details": [
-      "Premium silk crepe fabric",
-      "Straight cut with comfortable side slits",
-      "Pure chiffon dupatta"
-    ],
-    "care": [
-      "Dry clean only"
-    ]
-  },
-  {
-    "id": "sui-22",
-    "title": "Turquoise Jewel Flared Anarkali Suit",
-    "slug": "turquoise-jewel-flared-anarkali-suit",
-    "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 14100,
-    "regularPrice": 18200,
-    "discount": 23,
-    "images": [
-      "/images/catalog/suits/suit-64.jpg",
-      "/images/catalog/suits/suit-65.jpg",
-      "/images/catalog/suits/suit-66.jpg"
-    ],
-    "fabric": "Pure Georgette",
-    "craft": "Silver Zari Embroidery & Mirror Highlights",
-    "occasion": "Sangeet & Festive Galas",
-    "color": "Turquoise Jewel",
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Powder Sky Blue",
     "inStock": true,
     "featured": false,
     "isNew": false,
@@ -1712,34 +5325,37 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "A vibrant burst of celebratory color. Features an expansive flare highlighted with shimmering silver zari and mirrorwork.",
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Powder Sky Blue with hand-finished hems.",
     "details": [
-      "Flared silhouette",
-      "Matching churidar",
-      "Full embroidered dupatta"
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-23",
-    "title": "Warm Caramel Chanderi Silk Suit",
-    "slug": "warm-caramel-chanderi-silk-suit",
+    "id": "BS-SUI-062",
+    "title": "Viscose Georgette Sharara Set in Marigold Orange",
+    "slug": "viscose-georgette-sharara-set-in-marigold-orange",
     "category": "Suits",
-    "subCategory": "Straight Suits",
-    "price": 10600,
-    "regularPrice": 13800,
-    "discount": 23,
+    "subCategory": "Party Wear",
+    "price": 13550,
+    "regularPrice": 16940,
+    "discount": 20,
     "images": [
-      "/images/catalog/suits/suit-67.jpg",
-      "/images/catalog/suits/suit-68.jpg",
-      "/images/catalog/suits/suit-69.jpg"
+      "/images/catalog/suits/suit-62.jpg",
+      "/images/catalog/suits/suit-63.jpg",
+      "/images/catalog/suits/suit-64.jpg"
     ],
-    "fabric": "Chanderi Silk",
-    "craft": "Fine Zari Weave & Hand Embroidered Neckline",
-    "occasion": "Subtle Elegance & Daytime Festivities",
-    "color": "Warm Caramel",
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Marigold Orange",
     "inStock": true,
     "featured": false,
     "isNew": true,
@@ -1751,34 +5367,79 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "Warm neutral tones crafted in pure Chanderi silk with delicate golden threadwork for discerning understated luxury.",
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Marigold Orange with hand-finished hems.",
     "details": [
-      "Soft natural sheen",
-      "Straight pants with pockets",
-      "Dual-tone Chanderi dupatta"
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   },
   {
-    "id": "sui-24",
-    "title": "Saffron Gold Royal Angrakha Set",
-    "slug": "saffron-gold-royal-angrakha-set",
+    "id": "BS-SUI-063",
+    "title": "Straight-Cut Trousers Suit in Champagne Beige",
+    "slug": "straight-cut-trousers-suit-in-champagne-beige",
     "category": "Suits",
-    "subCategory": "Anarkali Suits",
-    "price": 15900,
-    "regularPrice": 20800,
-    "discount": 24,
+    "subCategory": "Designer",
+    "price": 10850,
+    "regularPrice": 13560,
+    "discount": 20,
     "images": [
-      "/images/catalog/suits/suit-70.jpg",
-      "/images/catalog/suits/suit-71.jpg",
-      "/images/catalog/suits/suit-72.jpg"
+      "/images/catalog/suits/suit-63.jpg",
+      "/images/catalog/suits/suit-64.jpg",
+      "/images/catalog/suits/suit-65.jpg"
     ],
-    "fabric": "Pure Silk & Organza",
-    "craft": "Authentic Angrakha Overlap & Heavy Zari Borders",
-    "occasion": "Weddings & Royal Banquets",
-    "color": "Saffron Gold",
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Champagne Beige",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Champagne Beige with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-064",
+    "title": "Royal Micro-Velvet Zardozi Set in Charcoal Slate",
+    "slug": "royal-micro-velvet-zardozi-set-in-charcoal-slate",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 17340,
+    "regularPrice": 21680,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-64.jpg",
+      "/images/catalog/suits/suit-65.jpg",
+      "/images/catalog/suits/suit-66.jpg"
+    ],
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Charcoal Slate",
     "inStock": true,
     "featured": true,
     "isNew": false,
@@ -1790,14 +5451,353 @@ export const PRODUCTS: Product[] = [
       "XL",
       "XXL"
     ],
-    "description": "A majestic courtly silhouette in radiant saffron silk with side tie-up tassels, expansive flare, and an ornate dupatta.",
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Charcoal Slate with hand-finished hems.",
     "details": [
-      "Traditional royal angrakha design",
-      "Tassels with handmade beads",
-      "Includes churidar and dupatta"
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
     ],
     "care": [
-      "Dry clean only"
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-065",
+    "title": "Handloom Cotton Silk Set in Crimson Vermilion",
+    "slug": "handloom-cotton-silk-set-in-crimson-vermilion",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 8080,
+    "regularPrice": 10100,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-65.jpg",
+      "/images/catalog/suits/suit-66.jpg",
+      "/images/catalog/suits/suit-67.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Crimson Vermilion",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Crimson Vermilion with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-066",
+    "title": "Longline Lace-Trim Kurta Set in Antique Gold",
+    "slug": "longline-lace-trim-kurta-set-in-antique-gold",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 12740,
+    "regularPrice": 15920,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-66.jpg",
+      "/images/catalog/suits/suit-67.jpg",
+      "/images/catalog/suits/suit-68.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Antique Gold",
+    "inStock": true,
+    "featured": false,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Antique Gold with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-067",
+    "title": "Flared Silk Anarkali Set in Emerald Forest",
+    "slug": "flared-silk-anarkali-set-in-emerald-forest",
+    "category": "Suits",
+    "subCategory": "Anarkali",
+    "price": 13630,
+    "regularPrice": 17040,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-67.jpg",
+      "/images/catalog/suits/suit-68.jpg",
+      "/images/catalog/suits/suit-69.jpg"
+    ],
+    "fabric": "Pure Chanderi silk with cotton lining",
+    "craft": "Anarkali Craftsmanship",
+    "occasion": "Sangeet evenings and celebratory twirls",
+    "color": "Emerald Forest",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Constructed with a voluminous flared skirt that twirls effortlessly, anchored by an embroidered yoke with fine zari cord work. Accompanied by fitted churidar pants and a featherlight hand-finished organza dupatta with scalloped borders. Fully lined in soft cotton. Rendered in refined Emerald Forest with hand-finished hems.",
+    "details": [
+      "Grand 24-kali flared silhouette with intricate gold gota patti.",
+      "Crafted in luxury Pure Chanderi silk with cotton lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-068",
+    "title": "Viscose Georgette Sharara Set in Royal Midnight Navy",
+    "slug": "viscose-georgette-sharara-set-in-royal-midnight-navy",
+    "category": "Suits",
+    "subCategory": "Party Wear",
+    "price": 12130,
+    "regularPrice": 15160,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-68.jpg",
+      "/images/catalog/suits/suit-69.jpg",
+      "/images/catalog/suits/suit-70.jpg"
+    ],
+    "fabric": "Pure fluid georgette with crepe lining",
+    "craft": "Party Wear Craftsmanship",
+    "occasion": "Mehendi ceremonies and festive cocktail hours",
+    "color": "Royal Midnight Navy",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Combines modern dramatic flair with traditional needlework. Features a fitted peplum silhouette adorned with fine mukaish and mirrorwork highlights over a wide-legged gathered sharara. Completed with a soft matching stole dupatta. Rendered in refined Royal Midnight Navy with hand-finished hems.",
+    "details": [
+      "Multi-tiered flared sharara paired with a tailored peplum kurta.",
+      "Crafted in luxury Pure fluid georgette with crepe lining",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-069",
+    "title": "Straight-Cut Trousers Suit in Mustard Haldi",
+    "slug": "straight-cut-trousers-suit-in-mustard-haldi",
+    "category": "Suits",
+    "subCategory": "Designer",
+    "price": 11420,
+    "regularPrice": 14280,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-69.jpg",
+      "/images/catalog/suits/suit-70.jpg",
+      "/images/catalog/suits/suit-71.jpg"
+    ],
+    "fabric": "Lustrous silk crepe blend",
+    "craft": "Designer Craftsmanship",
+    "occasion": "Engagement dinners and modern festive gatherings",
+    "color": "Mustard Haldi",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sophisticated straight-cut kurta featuring neat side slits, accented with fine dabka and beadwork along the boat neckline and cuffs. Paired with tailored cigarette trousers with functional pockets and a pure chiffon dupatta. Rendered in refined Mustard Haldi with hand-finished hems.",
+    "details": [
+      "Clean architectural tailoring meeting delicate hand-embellished accents.",
+      "Crafted in luxury Lustrous silk crepe blend",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-070",
+    "title": "Royal Micro-Velvet Zardozi Set in Dusty Rose",
+    "slug": "royal-micro-velvet-zardozi-set-in-dusty-rose",
+    "category": "Suits",
+    "subCategory": "Wedding Wear",
+    "price": 17920,
+    "regularPrice": 22400,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-70.jpg",
+      "/images/catalog/suits/suit-71.jpg",
+      "/images/catalog/suits/suit-72.jpg"
+    ],
+    "fabric": "Plush micro-velvet & organza",
+    "craft": "Wedding Wear Craftsmanship",
+    "occasion": "Winter weddings and royal gala banquets",
+    "color": "Dusty Rose",
+    "inStock": true,
+    "featured": true,
+    "isNew": true,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crafted from plush micro-velvet that absorbs and reflects ambient lights with sovereign richness. The neckline, hem, and sleeves carry ornate metallic tilla and zardozi floral motifs. Paired with velvet trousers and a contrast tissue veil dupatta. Rendered in refined Dusty Rose with hand-finished hems.",
+    "details": [
+      "Sumptuous deep velvet adorned with heritage zardozi needlework.",
+      "Crafted in luxury Plush micro-velvet & organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-071",
+    "title": "Handloom Cotton Silk Set in Deep Wine",
+    "slug": "handloom-cotton-silk-set-in-deep-wine",
+    "category": "Suits",
+    "subCategory": "Simple/Daily Wear",
+    "price": 8660,
+    "regularPrice": 10820,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-71.jpg",
+      "/images/catalog/suits/suit-72.jpg",
+      "/images/catalog/suits/suit-1.jpg"
+    ],
+    "fabric": "Natural breathable cotton-silk",
+    "craft": "Simple/Daily Wear Craftsmanship",
+    "occasion": "Daytime rituals, workwear elegance, and festive family lunches",
+    "color": "Deep Wine",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Woven from premium natural cotton-silk offering superior airflow and gentle sheen. Features clean straight lines, minimalist pearl buttons, and tailored pencil pants. Includes a lightweight matching stole with delicate thread fringe. Rendered in refined Deep Wine with hand-finished hems.",
+    "details": [
+      "Effortless all-day breathability with subtle metallic zari borders.",
+      "Crafted in luxury Natural breathable cotton-silk",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
+    ]
+  },
+  {
+    "id": "BS-SUI-072",
+    "title": "Longline Lace-Trim Kurta Set in Ivory Off-White",
+    "slug": "longline-lace-trim-kurta-set-in-ivory-off-white",
+    "category": "Suits",
+    "subCategory": "Pakistani-style",
+    "price": 13310,
+    "regularPrice": 16640,
+    "discount": 20,
+    "images": [
+      "/images/catalog/suits/suit-72.jpg",
+      "/images/catalog/suits/suit-1.jpg",
+      "/images/catalog/suits/suit-2.jpg"
+    ],
+    "fabric": "Textured lawn silk & sheer organza",
+    "craft": "Pakistani-style Craftsmanship",
+    "occasion": "Festive soirees and contemporary celebrations",
+    "color": "Ivory Off-White",
+    "inStock": true,
+    "featured": false,
+    "isNew": false,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Embraces the fluid grace of relaxed longline tailoring. The calf-length kurta is enriched with intricate crochet lace borders, scalloped sleeve hems, and side slit button detailing. Accompanied by wide-leg culottes and a sheer organza wrap. Rendered in refined Ivory Off-White with hand-finished hems.",
+    "details": [
+      "Relaxed longline silhouette framed with delicate cutwork lace trims.",
+      "Crafted in luxury Textured lawn silk & sheer organza",
+      "Hand-inspected by Balaji Signatures master artisans",
+      "Tamper-proof protective packaging included"
+    ],
+    "care": [
+      "Dry clean only",
+      "Store wrapped in breathable cotton",
+      "Low steam iron on reverse"
     ]
   }
 ];
@@ -1817,7 +5817,7 @@ export const HERO_SLIDES = [
 export const TRUST_FACTORS = [
   {
     icon: 'ShieldCheck',
-    title: 'Authentic Craftsmanship',
+    title: 'Artisanal Craftsmanship',
     description: 'Every saree and suit is meticulously hand-inspected for fabric purity and artisan finish.',
   },
   {

@@ -1,94 +1,97 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { Sparkles, ShieldCheck, Heart, Award } from 'lucide-react';
+import { SectionReveal } from '@/components/ui/SectionReveal';
+import { Button } from '@/components/ui/Button';
 
 export const BrandStory: React.FC = () => {
   return (
-    <section className="py-24 lg:py-32 bg-canvas-subtle border-b border-heritage-border overflow-hidden">
+    <section className="py-20 lg:py-28 bg-canvas-warm relative overflow-hidden font-sans border-b border-heritage-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          {/* Asymmetric Image Collage Left */}
+          {/* Asymmetric Atelier Image Composition */}
           <div className="lg:col-span-6 relative">
-            {/* Primary Main Image */}
-            <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:mx-0 overflow-hidden shadow-luxury border border-heritage-border bg-white">
-              <Image
-                src="/images/editorial/craft-story.png"
-                alt="Balaji Signatures Artisanal Craftsmanship"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-
-            {/* Overlapping Floating Badge */}
-            <div className="absolute -bottom-6 -right-2 sm:right-6 lg:-right-6 bg-heritage-deep text-canvas p-6 sm:p-8 max-w-xs shadow-2xl border border-gold-antique/30">
-              <div className="flex items-center gap-2 mb-2">
-                <Sparkles className="w-4 h-4 text-gold-muted" />
-                <span className="text-[10px] uppercase tracking-regal text-gold-muted font-sans font-semibold">
-                  Artisanal Commitment
-                </span>
+            <SectionReveal className="relative z-10">
+              <div className="relative aspect-[4/5] w-full overflow-hidden shadow-luxury border border-heritage-border bg-heritage-deep">
+                <Image
+                  src="/images/editorial/craft-story.png"
+                  alt="Balaji Signatures Handloom Atelier Craftsmanship"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-heritage-deep/60 via-transparent to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6 p-4 bg-white/90 backdrop-blur-md border border-heritage-border">
+                  <p className="text-xs uppercase tracking-eyebrow text-gold-deep font-semibold">
+                    Atelier Standard
+                  </p>
+                  <p className="font-serif text-sm text-heritage-brown">
+                    Hand-Inspected Weaves · Dedicated Pure Saree &amp; Suit Specialization
+                  </p>
+                </div>
               </div>
-              <p className="text-xs font-sans text-canvas/80 leading-relaxed font-light">
-                Hand-inspected fabric integrity, genuine zari threads, and precision tailoring.
-              </p>
-            </div>
+            </SectionReveal>
+
+            {/* Decorative Offset Gold Frame */}
+            <div className="hidden sm:block absolute -bottom-6 -right-6 w-full h-full border border-gold-antique/40 z-0 pointer-events-none" />
           </div>
 
-          {/* Editorial Narrative Right */}
-          <div className="lg:col-span-6 space-y-6 lg:pl-6">
-            <span className="text-xs uppercase tracking-regal text-gold-deep font-sans font-semibold">
-              The Balaji Philosophy
-            </span>
+          {/* Editorial Narrative */}
+          <div className="lg:col-span-6 space-y-6">
+            <SectionReveal className="space-y-4">
+              <span className="text-xs uppercase tracking-eyebrow text-gold-deep font-semibold flex items-center gap-2">
+                <Sparkles className="w-3.5 h-3.5" />
+                The Balaji Signatures Atelier
+              </span>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-heritage-brown font-normal leading-tight">
+                Devotion to the Drape &amp; <br />
+                <span className="italic font-light text-gold-deep">Precision of the Cut</span>
+              </h2>
+              <div className="w-16 h-0.5 bg-gold-antique my-2" />
+            </SectionReveal>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-heritage-brown font-normal leading-tight">
-              Rooted in Tradition, <br />
-              <span className="italic font-light text-gold-deep">Tailored for Today</span>
-            </h2>
-
-            <div className="space-y-4 text-sm sm:text-base text-heritage-secondary font-sans font-light leading-relaxed">
+            <SectionReveal delay={0.2} className="space-y-4 text-heritage-secondary font-light text-sm sm:text-base leading-relaxed">
               <p>
-                At <strong>Balaji Signatures</strong>, we hold an unyielding reverence for the heritage
-                of Indian textiles. By specializing strictly in women’s Sarees and Suits, our focus is
-                singular: to elevate the drape and the cut to an art form.
+                Balaji Signatures is an Indian luxury women&apos;s ethnic fashion studio dedicated to preserving India&apos;s generational textile traditions. We hold a singular, uncompromising focus: <strong>Sarees and Suits only</strong>.
               </p>
               <p>
-                From pure Kanjivaram and Banarasi mulberry silks to flowing georgettes and lightweight
-                organza, every piece reflects thoughtful curation. We bridge the gap between heirloom
-                authenticity and effortless contemporary comfort, offering pieces meant to be cherished
-                across generations.
+                From hand-loomed Kanjivaram and Banarasi silks to tailored Anarkalis, sharara ensembles, and micro-velvet sets, every silhouette is crafted with artisanal dignity. We reject fast-fashion shortcuts, ensuring every piece that leaves our studio is steam-finished, inspected for weave purity, and wrapped in protective tamper-proof packaging.
               </p>
-            </div>
+            </SectionReveal>
 
-            {/* Key Pillars */}
-            <div className="pt-4 grid grid-cols-2 gap-6 border-t border-heritage-border">
-              <div>
-                <h4 className="text-sm font-serif font-semibold text-heritage-brown">Pure Handlooms</h4>
-                <p className="text-xs text-heritage-secondary mt-1 font-light">
-                  Direct artisan-sourced silks and handloom weaves.
+            {/* Pillars */}
+            <SectionReveal delay={0.3} className="grid grid-cols-2 gap-4 pt-4 border-t border-heritage-border">
+              <div className="space-y-1">
+                <div className="flex items-center gap-2 text-heritage-brown font-medium text-xs uppercase tracking-eyebrow">
+                  <Award className="w-4 h-4 text-gold-antique" />
+                  <span>Artisanal Purity</span>
+                </div>
+                <p className="text-xs text-heritage-secondary font-light">
+                  Hand-inspected silk and genuine metallic zari threads.
                 </p>
               </div>
-              <div>
-                <h4 className="text-sm font-serif font-semibold text-heritage-brown">Custom Fit Support</h4>
-                <p className="text-xs text-heritage-secondary mt-1 font-light">
-                  Tailored stitching and sizing guidance via WhatsApp.
+
+              <div className="space-y-1">
+                <div className="flex items-center gap-2 text-heritage-brown font-medium text-xs uppercase tracking-eyebrow">
+                  <ShieldCheck className="w-4 h-4 text-gold-antique" />
+                  <span>Studio Direct</span>
+                </div>
+                <p className="text-xs text-heritage-secondary font-light">
+                  Direct concierge guidance via WhatsApp for bespoke advice.
                 </p>
               </div>
-            </div>
+            </SectionReveal>
 
-            <div className="pt-4">
-              <Link
-                href="/about"
-                className="inline-flex items-center gap-3 text-xs uppercase tracking-regal text-heritage-brown font-semibold hover:text-gold-deep group transition-colors"
-              >
-                <span>Read More About Our Atelier</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </div>
+            <SectionReveal delay={0.4} className="pt-4">
+              <Button href="/about" variant="secondary" size="md">
+                Read Atelier Manifesto
+              </Button>
+            </SectionReveal>
           </div>
         </div>
       </div>
     </section>
   );
 };
-

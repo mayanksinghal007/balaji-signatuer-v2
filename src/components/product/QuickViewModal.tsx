@@ -11,15 +11,16 @@ import { useWishlist } from '@/context/WishlistContext';
 interface QuickViewModalProps {
   product: Product | null;
   onClose: () => void;
+  isOpen?: boolean;
 }
 
-export const QuickViewModal: React.FC<QuickViewModalProps> = ({ product, onClose }) => {
+export const QuickViewModal: React.FC<QuickViewModalProps> = ({ product, onClose, isOpen }) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [selectedSize, setSelectedSize] = useState<string>('');
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
 
-  if (!product) return null;
+  if (!product || isOpen === false) return null;
 
   const currentSize = selectedSize || product.sizes[0] || 'Free Size';
   const isFavorited = isInWishlist(product.id);

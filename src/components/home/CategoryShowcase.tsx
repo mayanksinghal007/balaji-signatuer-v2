@@ -1,102 +1,105 @@
+'use client';
+
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
+import { motion, useReducedMotion } from 'framer-motion';
+import { ArrowUpRight, Sparkles } from 'lucide-react';
+import { SectionReveal } from '@/components/ui/SectionReveal';
 
 export const CategoryShowcase: React.FC = () => {
+  const shouldReduceMotion = useReducedMotion();
+
   const categories = [
     {
       title: 'The Saree Guild',
-      subtitle: 'Handloom Kanjivaram, Banarasi & Organza Drapes',
-      count: '75 Curated Masterpieces',
+      category: 'Sarees',
+      subtitle: 'Heirloom Kanjivaram, Banarasi, Chanderi & Sheer Organza',
+      href: '/collection/sarees',
       image: '/images/catalog/sarees/saree-1.jpg',
-      link: '/collection/sarees',
-      badge: 'Heritage Drapes',
-      description:
-        'Woven in pure mulberry silk, featherweight organza, and opulent gold zari. Timeless drapes for monumental milestones.',
+      count: '75+ Unique Weaves',
+      tag: 'Heritage Drapes',
     },
     {
       title: 'The Suit Atelier',
-      subtitle: 'Flared Anarkalis, Shararas & Straight Tailored Sets',
-      count: '72 Bespoke Silhouettes',
+      category: 'Suits',
+      subtitle: 'Tailored Anarkalis, Flared Shararas, Straight Sets & Velvet',
+      href: '/collection/suits',
       image: '/images/catalog/suits/suit-1.jpg',
-      link: '/collection/suits',
-      badge: 'Tailored Couture',
-      description:
-        'Architectural tailoring married with hand-embroidery, delicate gottapatti, and flowing dupattas. Ready to wear & bespoke.',
+      count: '72+ Curated Silhouettes',
+      tag: 'Bespoke Tailoring',
     },
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-canvas-subtle border-b border-heritage-border">
+    <section className="py-20 lg:py-28 bg-canvas-subtle relative overflow-hidden font-sans border-b border-heritage-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs uppercase tracking-regal text-gold-deep font-sans font-semibold">
-            Curated Architectural Pillars
+        <SectionReveal className="text-center max-w-2xl mx-auto mb-16 space-y-3">
+          <span className="text-xs uppercase tracking-eyebrow text-gold-antique font-semibold flex items-center justify-center gap-2">
+            <Sparkles className="w-3.5 h-3.5" />
+            Curated Disciplines
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-heritage-brown font-normal">
-            Shop By Discipline
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-heritage-brown font-normal">
+            Shop by Category
           </h2>
-          <div className="w-12 h-0.5 bg-gold-antique mx-auto my-3" />
-          <p className="text-sm text-heritage-secondary font-sans font-light">
-            Strictly dedicated to the two quintessential expressions of Indian women&apos;s ethnic elegance:
-            the regal Saree and the refined Suit.
+          <div className="w-16 h-0.5 bg-gold-antique mx-auto my-3" />
+          <p className="text-sm sm:text-base text-heritage-secondary font-light">
+            Our atelier devotes its craftsmanship entirely to two timeless expressions of Indian femininity.
           </p>
-        </div>
+        </SectionReveal>
 
-        {/* Two Monumental Category Cards */}
+        {/* 2-Card Asymmetric Editorial Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-          {categories.map((cat) => (
-            <Link
-              key={cat.title}
-              href={cat.link}
-              className="group relative block overflow-hidden bg-canvas border border-heritage-border shadow-luxury hover:shadow-luxury-hover transition-all duration-500"
-            >
-              {/* Image Frame */}
-              <div className="relative aspect-[4/5] w-full overflow-hidden bg-canvas-subtle">
-                <Image
-                  src={cat.image}
-                  alt={cat.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-silk"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-                {/* Gradient Shadow Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-heritage-deep/90 via-heritage-deep/30 to-transparent" />
-              </div>
+          {categories.map((cat, idx) => (
+            <SectionReveal key={idx} delay={idx * 0.15}>
+              <Link href={cat.href} className="group block relative overflow-hidden shadow-luxury">
+                {/* Image Container with 3D-feel Hover Scale */}
+                <div className="relative aspect-[4/5] sm:aspect-[3/4] w-full overflow-hidden bg-heritage-deep">
+                  <Image
+                    src={cat.image}
+                    alt={cat.title}
+                    fill
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
 
-              {/* Category Card Header Badge */}
-              <div className="absolute top-6 left-6 z-10">
-                <span className="bg-canvas/90 text-heritage-brown text-[10px] uppercase tracking-regal font-sans px-3 py-1.5 font-semibold backdrop-blur-sm border border-gold-antique/30">
-                  {cat.badge}
-                </span>
-              </div>
+                  {/* Gradient Scrim for Contrast */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-heritage-deep/90 via-heritage-deep/30 to-transparent transition-opacity duration-300 group-hover:from-heritage-deep/95" />
 
-              {/* Bottom Details Content */}
-              <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 z-10 text-canvas space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs uppercase tracking-regal text-gold-muted font-sans font-medium">
-                    {cat.count}
-                  </span>
-                  <div className="w-9 h-9 rounded-full bg-gold-antique/80 text-canvas flex items-center justify-center group-hover:bg-gold-antique group-hover:scale-110 transition-all duration-300">
-                    <ArrowUpRight className="w-4 h-4" />
+                  {/* Animated Gold Border Draw */}
+                  <div className="absolute inset-4 border border-gold-antique/0 transition-all duration-500 group-hover:border-gold-antique/60 pointer-events-none" />
+
+                  {/* Badge */}
+                  <div className="absolute top-6 left-6 z-10">
+                    <span className="px-3 py-1 bg-white/20 backdrop-blur-md text-[10px] uppercase tracking-eyebrow text-white font-medium border border-white/20">
+                      {cat.tag}
+                    </span>
+                  </div>
+
+                  {/* Bottom Text Content (Slides up smoothly on hover) */}
+                  <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-10 z-10 transition-transform duration-300 group-hover:-translate-y-2">
+                    <p className="text-xs uppercase tracking-eyebrow text-gold-light mb-1.5 font-medium">
+                      {cat.count}
+                    </p>
+                    <div className="flex items-center justify-between">
+                      <h3 className="text-2xl sm:text-3xl font-serif text-white font-normal">
+                        {cat.title}
+                      </h3>
+                      <div className="w-10 h-10 rounded-full bg-gold-antique text-white flex items-center justify-center transform transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
+                        <ArrowUpRight className="w-5 h-5" />
+                      </div>
+                    </div>
+                    <p className="text-xs sm:text-sm text-white/70 font-light mt-2 line-clamp-2">
+                      {cat.subtitle}
+                    </p>
                   </div>
                 </div>
-
-                <h3 className="text-2xl sm:text-3xl font-serif text-canvas font-normal group-hover:text-gold-light transition-colors">
-                  {cat.title}
-                </h3>
-
-                <p className="text-xs sm:text-sm text-canvas/80 font-sans font-light line-clamp-2 max-w-md pt-1">
-                  {cat.description}
-                </p>
-              </div>
-            </Link>
+              </Link>
+            </SectionReveal>
           ))}
         </div>
       </div>
     </section>
   );
 };
-
